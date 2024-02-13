@@ -1,1 +1,0 @@
-# wannier-ecosystem-registry
