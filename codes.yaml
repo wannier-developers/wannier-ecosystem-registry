@@ -1,9 +1,7 @@
 ---
 YAMBO:
     categories:
-        - data-analysis
-        - data-visualization
-        - utilities
+        - ab-initio_engines
     git_url: https://github.com/yambo-code/yambo.git
     metadata:
         description: |
