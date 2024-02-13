@@ -116,7 +116,7 @@ def build_from_config(config: Config):
     )
 
     # Generate the aggregated codes metadata registry.
-    codes_meta = generate_codes_meta(data=data, schema=schemas.codes_meta)
+    codes_meta = generate_codes_meta(data=data, schema=None)  # schemas.codes_meta)
 
     # Remove previous build (if present).
 
