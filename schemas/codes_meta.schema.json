@@ -1,0 +1,96 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://wannier-developers.github.io/wannier-ecosystem-registry/schemas/v1/codes_meta.schema.json",
+    "$ref": "#/definitions/Welcome",
+    "definitions": {
+        "Welcome": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "codes": {
+                    "$ref": "#/definitions/Codes"
+                },
+                "categories": {
+                    "$ref": "#/definitions/Categories"
+                }
+            },
+            "required": [
+                "codes",
+                "categories"
+            ],
+            "title": "Welcome"
+        },
+        "Codes": {
+            "type": "object",
+            "additionalProperties": false,
+            "patternProperties": {
+              ".*": {"$ref": "#/definitions/Code"}
+            },
+            "title": "Codes"
+        },
+        "Code": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "git_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".git"
+                    ]
+                },
+                "categories": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "name": {
+                  "type": "string"
+                },
+                "metadata": {
+                    "$ref": "https://wannier-developers.github.io/wannier-ecosystem-registry/schemas/v1/metadata.schema.json#/definitions/Welcome"
+                },
+                "gitinfo": {
+                    "$ref": "#/definitions/CodeGitinfo"
+                },
+                "subpage": {
+                    "type": "string"
+                },
+                "logo": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                }
+            },
+            "required": [
+                "categories",
+                "metadata"
+            ],
+            "title": "Code"
+        },
+        "CodeGitinfo": {
+            "type": "object",
+            "additionalProperties": false,
+            "propertyNames": {
+              "pattern": "^(HEAD)|(refs\/(.+?))\/.+$"
+            },
+            "patternProperties": {
+              ".*": {"type": "string"}
+            },
+            "title": "CodeGitinfo"
+        },
+        "Categories": {
+            "type": "object",
+            "additionalProperties": false,
+            "patternProperties": {
+              ".*": {"$ref": "https://wannier-developers.github.io/wannier-ecosystem-registry/schemas/v1/categories.schema.json#/definitions/Category"}
+            }
+        }
+    }
+}
