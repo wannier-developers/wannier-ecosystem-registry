@@ -1,0 +1,145 @@
+{
+  "codes": {
+    "YAMBO": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "git_url": "https://github.com/yambo-code/yambo.git",
+      "metadata": {
+        "description": "A FORTRAN/C code for Many-Body calculations in solid state and molecular physics.\n",
+        "documentation_url": "https://www.yambo-code.eu/wiki/index.php/Main_Page",
+        "title": "yambo-code",
+        "logo": "data:image/jpeg;base64,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"
+      },
+      "gitinfo": {
+        "HEAD": "483c98fb0ced0843889643eb8eb7266a8a0aa29e",
+        "refs/heads/3.4": "c51cfaf30504873a4dfc315c980bef7799a4aaa7",
+        "refs/heads/4.0": "10ea79428ec318119ee307df12d005d19f4de380",
+        "refs/heads/4.1": "2206d7ee73ac9dff5363df4aef6ea1c4bf5499c6",
+        "refs/heads/4.10": "3b4e58000a38ac86a17134080531165c2620c9b9",
+        "refs/heads/4.2": "53923388e1ca4bcedfeb363290737b1aa3e43ac6",
+        "refs/heads/4.3": "7ea926701abef679784abf73f4e488782046d901",
+        "refs/heads/4.4": "45e06f8d707be534a6ea2ec6285108a01819775e",
+        "refs/heads/4.5": "4ae39859cb7d6a95f70d3544ecbd01b59f96ef27",
+        "refs/heads/5.0": "1db3e0e387aafc290f1742df328caa4620610662",
+        "refs/heads/5.1": "612ae3ca5d8eb502bd082c32c2e02957b33d8fdd",
+        "refs/heads/5.2": "953b96fccc3154df679a3c4dd481c3c98d9661ea",
+        "refs/heads/bug-fixes": "a5e39f8838e1fa10d8ce77139006ffebb14a322a",
+        "refs/heads/devel-gpu": "c51eaf2ff14117a4d0a6fd7106177a3386a9e101",
+        "refs/heads/devel-pcm": "dfcd9ee5be6da9d1136bc297a671c300185d5b41",
+        "refs/heads/devel-slk": "8e138db36c8e554c5110244d2d6d5257623c0c8d",
+        "refs/heads/devel-surf": "e3bf503c93f49c2b25e15a3cc3780ed9bf0dfa12",
+        "refs/heads/devel_perturbo": "497f6fbd95db5792b04fb141ea944e5751a4a504",
+        "refs/heads/master": "483c98fb0ced0843889643eb8eb7266a8a0aa29e",
+        "refs/heads/nonlinear": "6d1d8bf421b01bf80bb100366609026633936a5b",
+        "refs/heads/phys/asesma": "73b5a38f6eb42065421b94d71a14f9c287d529ec",
+        "refs/heads/tech-isolv-bse": "371f5b032a324ee84c0d9a3b1ad7bb31e32dbff9",
+        "refs/heads/tech-magma": "7e29bf1c9585eab35068b3b8d03e1540ba40db4a",
+        "refs/heads/tech/magma": "20369f33b04a8a2c8fbc18bda64fe394ccbe08cf",
+        "refs/pull/2/head": "35087c5421f54e02bcd6a4895c445d241192e7ee",
+        "refs/pull/2/merge": "de52ff47eda239449cd2f0e7d7d9a00ed0e36f7c",
+        "refs/pull/32/head": "ecd103e862f8a94085d4db215f15dd2e55198223",
+        "refs/pull/39/head": "9259b9ba86ffc3ae3cf2db91e70d7ce1ba40b4f5",
+        "refs/pull/40/head": "8de514cf5706065f356eb96b70ddf5776d7d0bcd",
+        "refs/pull/41/head": "ea7b058bc216706f6292418ddff065237877b749",
+        "refs/pull/48/head": "327b8919cc48130b221fb80761fc10b082424c1e",
+        "refs/pull/49/head": "1e49b5494d05869bb68ebb3fa7d1841c319b27f4",
+        "refs/pull/51/head": "294ad11c07b1e03f8a0f28e5d29c085bb562deab",
+        "refs/pull/52/head": "a682727b8f7bd11702bba3430a90b7d3c97cef4c",
+        "refs/pull/55/head": "a8da62b8fcc95238c08f389aa4227a2ace46f36e",
+        "refs/pull/56/head": "9bf86cff7d143eabca2568c702fc92240a1cefb7",
+        "refs/pull/57/head": "783dd1ed1c5ef9901f5b6ffc66b519ac1075544b",
+        "refs/pull/63/head": "b71fb7a1f77ce90a9e2a973a52426866a32305a8",
+        "refs/pull/66/head": "305af650847d0be0698234657e76a7b1aa23f2b4",
+        "refs/tags/3.1.2": "c74f8685f90ec603ea283dd135d088123f526867",
+        "refs/tags/3.2.0": "f9d33bf3fe08a82eb306a5e98bd2536d405a8c8a",
+        "refs/tags/3.2.1": "3da16dde03d056b9c8ceedb6ad4b2294a5263696",
+        "refs/tags/3.2.2": "678098b46704c6ef01aa7f0f68b583e11d01e637",
+        "refs/tags/3.2.3": "1795a6a4bb569a5b26dd9c1e0a6d95313eefed1e",
+        "refs/tags/3.2.4": "0c136e6a791967de2d615f107e5b1e6b8b4e9576",
+        "refs/tags/3.2.5": "02e0babb067f082a178df29998bd3ae4d9b63632",
+        "refs/tags/3.2.6": "4887244285723e9f0fa58d41ff41be6a731949ad",
+        "refs/tags/3.3.0": "8c3043bc59af0b5642557cdb1c3869acaa3a4e6f",
+        "refs/tags/3.3.1": "94bde8f3558ba8cbb56dd4c89342414ba8d6b8b5",
+        "refs/tags/3.4.0": "9000a7b7af5f78fd5c49d9161890f957799a243b",
+        "refs/tags/3.4.1": "9c73af96f4e5ee8fa14b28e25ab5f2e333c13dfe",
+        "refs/tags/3.4.2": "c51cfaf30504873a4dfc315c980bef7799a4aaa7",
+        "refs/tags/4.0.0": "3f2b841a9d745bc30b3366b1d37615c77040e7e6",
+        "refs/tags/4.0.1": "0b11b099337e6b37d6267cbd689489138a07575f",
+        "refs/tags/4.0.2": "b39d14e08c0e889ea37ff84bbadb7e6a4cc6a073",
+        "refs/tags/4.0.3": "a48c96acf2adbad3dfc229a572544d9be569241a",
+        "refs/tags/4.0.4": "10ea79428ec318119ee307df12d005d19f4de380",
+        "refs/tags/4.1.0": "d344998b42e6b40dfe2ef3f528fc0c2c00597fff",
+        "refs/tags/4.1.1": "56ff5eb651ccb594e19b1abbea9079ceb482f005",
+        "refs/tags/4.1.2": "a6521248ce22ecd87bf368ce941d3110faa10c6c",
+        "refs/tags/4.1.3": "cf8b390a2e295d2ceb8c97237611b1add71bbae0",
+        "refs/tags/4.1.4": "8edf7cf177ba327e70b03d476953f08c5ad87e3e",
+        "refs/tags/4.1.5": "2206d7ee73ac9dff5363df4aef6ea1c4bf5499c6",
+        "refs/tags/4.2.0": "dcccf9b81d47551b1984414546602cd307947705",
+        "refs/tags/4.2.1": "5fc0517edce591884c005dcab491b7b780bf478f",
+        "refs/tags/4.2.2": "79d3e6f5de632a69063e09e8e9f019e5a6248f75",
+        "refs/tags/4.2.3": "267fe28f34422ec0ef55db1557d12bbe16b68da7",
+        "refs/tags/4.2.4": "abc56404c783754371d1f5461ce6e7a6e56e51f8",
+        "refs/tags/4.2.5": "53923388e1ca4bcedfeb363290737b1aa3e43ac6",
+        "refs/tags/4.3.0": "a087e2f89c29809506758880c34f51c9bc5abe5e",
+        "refs/tags/4.3.1": "7be390d0242543b3a1911aed5706c5547345137e",
+        "refs/tags/4.3.2": "5ab955153716ff0975d3c246875da931b0db38a3",
+        "refs/tags/4.3.3": "7ea926701abef679784abf73f4e488782046d901",
+        "refs/tags/4.4.0": "a0895844579d2f87028cea9c85b2a04cff8e6f53",
+        "refs/tags/4.4.1": "45e06f8d707be534a6ea2ec6285108a01819775e",
+        "refs/tags/4.5.0": "28d5a6ed0631656f8078c0f6df633327d8e1ad36",
+        "refs/tags/4.5.1": "5ec9eb5700d32e12d5d7eba77765619cf783944c",
+        "refs/tags/4.5.2": "bfbf28fdc49a95d2be439f04693a160bf4eed647",
+        "refs/tags/4.5.3": "e4b2e9cb5f8ab2daa4467cde88dca889f604fef4",
+        "refs/tags/5.0.0": "c523c22ffb0824b4527ee2350beb704ceae24c99",
+        "refs/tags/5.0.1": "603578bf53f0ea467899f87626345fe0fc2ae62c",
+        "refs/tags/5.0.2": "037396728336f07b0717e14115e032ed5873acde",
+        "refs/tags/5.0.3": "b5172bcc8286b1e2dc0eeb92f1850a83be5e720b",
+        "refs/tags/5.0.4": "3f0f7831f2c95cad2d06b74895676395ff74710f",
+        "refs/tags/5.1.0": "9e3281009cb5004ec6ef5b048b8c84f279eb08c6",
+        "refs/tags/5.1.1": "a1c83241da2fb30f8c6451b916232e47d8a1fcf2",
+        "refs/tags/5.1.2": "3be12b69218f898a41a7d97ac69d1e7b3916df78",
+        "refs/tags/5.2.0": "6187b590288d25983f15b58fdb64718966331bd8",
+        "refs/tags/5.2.1": "953b96fccc3154df679a3c4dd481c3c98d9661ea"
+      },
+      "hosted_on": "github.com",
+      "logo": "data:image/jpeg;base64,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",
+      "name": "YAMBO",
+      "subpage": "codes/YAMBO.html"
+    }
+  },
+  "categories": {
+    "wannier_engines": {
+      "description": "Codes to obtain Wannier functions",
+      "title": "Wannier engines"
+    },
+    "ab-initio_engines": {
+      "description": "First-principles simulation codes",
+      "title": "Ab initio engines"
+    },
+    "tb": {
+      "description": "Tight-binding codes",
+      "title": "Tight-binding"
+    },
+    "berry": {
+      "description": "Codes to calculate quantum-geometrical and topological properties of the electronic structure",
+      "title": "Berryology and topology"
+    },
+    "elph": {
+      "description": "Codes to calculate properties related to electron-phonon coupling, such as electronic mobilites and superconducting critical temperatures",
+      "title": "Electron-phonon coupling"
+    },
+    "dmft": {
+      "description": "Codes to perform simulation within dynamical mean-field theory (DMFT)",
+      "title": "Dynamical mean-field theory"
+    },
+    "IO-auto": {
+      "description": "Codes and automation platforms for automation, high-throughput computing, I/O generation and parsing.",
+      "title": "I/O and automation"
+    },
+    "transport": {
+      "description": "Codes to perform calculations of electronic transport",
+      "title": "Transport"
+    }
+  }
+}
