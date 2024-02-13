@@ -20,3 +20,37 @@ Quantum ESPRESSO:
         documentation_url: https://www.quantum-espresso.org/documentation/
         title: Quantum ESPRESSO
         logo: https://www.quantum-espresso.org/wp-content/uploads/2022/03/quantum_ogo_ok.png
+
+ABINIT:
+    categories:
+        - ab-initio_engines
+        - dmft
+    git_url: https://github.com/abinit/abinit
+    metadata:
+        description: |
+            ABINIT is a software suite to calculate the optical, mechanical, vibrational, and other observable properties of materials. Starting from the quantum equations of density functional theory, you can build up to advanced applications with perturbation theories based on DFT, and many-body Green's functions (GW and DMFT).
+        documentation_url: https://www.abinit.org
+        title: ABINIT
+        logo: https://www.abinit.org/themes/abinit/logo-abinit-2015.svg
+
+WIEN2k:
+    categories:
+        - ab-initio_engines
+    git_url: http://susi.theochem.tuwien.ac.at
+    metadata:
+        description: |
+            ABINIT is a software suite to calculate the optical, mechanical, vibrational, and other observable properties of materials. Starting from the quantum equations of density functional theory, you can build up to advanced applications with perturbation theories based on DFT, and many-body Green's functions (GW and DMFT).
+        documentation_url: http://susi.theochem.tuwien.ac.at
+        title: WIEN2k
+        logo: http://susi.theochem.tuwien.ac.at/img/wien2k_logo_3.gif
+
+VASP:
+    categories:
+        - ab-initio_engines
+    git_url: https://www.vasp.at
+    metadata:
+        description: |
+            The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.
+        documentation_url: https://www.vasp.at/wiki/index.php/LWANNIER90
+        title: VASP
+        logo: https://www.vasp.at/wiki/images/vasp_logo_alpha.png
