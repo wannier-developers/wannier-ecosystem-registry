@@ -66,7 +66,7 @@ pythtb:
         documentation_url: https://www.physics.rutgers.edu/pythtb/index.html
         interface_docs_url: https://www.physics.rutgers.edu/pythtb/usage.html#pythtb.w90
         title: PythTB
-        logo: 
+        logo: https://www.physics.rutgers.edu/pythtb/_images/graphene.png
 
 tbmodels:
     categories:
