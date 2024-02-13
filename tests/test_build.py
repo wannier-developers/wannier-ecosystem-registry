@@ -50,12 +50,8 @@ def code_metadata(requests_mock, code_logo):
     """Create metadata content for a test code."""
     return {
         "description": "A test code that does not really exist.",
-        "title": "Test Code",
         "version": "1.0.0",
-        "authors": "big-map",
-        "affiliations": "big-map",
         "logo": code_logo.url,
-        "state": "development",
     }
 
 
