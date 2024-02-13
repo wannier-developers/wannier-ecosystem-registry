@@ -34,6 +34,8 @@ def fetch_code_data(code_data, code_name):
     code_data["metadata"] = complete_metadata(code_name, code_data["metadata"], git_url)
     if git_url:
         code_data["gitinfo"] = util.get_git_branches(git_url)
+    if hosted_on:
+        code_data["hosted_on"] = hosted_on
 
     # Get logo URL, if it has been specified
     if "logo" in code_data["metadata"]:
@@ -72,7 +74,9 @@ def generate_codes_meta(data, schema=None):
         logger.info(f"  - {code_name}")
         code_data = fetch_code_data(data.codes[code_name], code_name)
         code_data["name"] = code_name
-        code_data["subpage"] = os.path.join("codes", util.get_html_code_fname(code_name))
+        code_data["subpage"] = os.path.join(
+            "codes", util.get_html_code_fname(code_name)
+        )
         codes_meta["codes"][code_name] = code_data
 
     if schema:

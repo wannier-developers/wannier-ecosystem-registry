@@ -39,7 +39,9 @@ def test_validate_metadata_schema(metadata_schema):
     jsonschema.Draft7Validator.check_schema(metadata_schema)
 
 
-def test_validate_codes_yaml_schema(validate, codes_schema, codes_yaml, valid_categories):
+def test_validate_codes_yaml_schema(
+    validate, codes_schema, codes_yaml, valid_categories
+):
     validate(instance=codes_yaml, schema=codes_schema)
 
 
