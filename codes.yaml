@@ -47,10 +47,10 @@ WIEN2k:
 VASP:
     categories:
         - ab-initio_engines
-    git_url: https://www.vasp.at
+    git_url: http://www.vasp.at
     metadata:
         description: |
             The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.
-        documentation_url: https://www.vasp.at/wiki/index.php/LWANNIER90
+        documentation_url: http://www.vasp.at/wiki/index.php/LWANNIER90
         title: VASP
-        logo: https://www.vasp.at/wiki/images/vasp_logo_alpha.png
+        logo: http://www.vasp.at/wiki/images/vasp_logo_alpha.png
