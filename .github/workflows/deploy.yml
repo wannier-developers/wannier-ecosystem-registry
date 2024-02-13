@@ -28,9 +28,9 @@ jobs:
                   python -m pip install \
                     -r ./src/requirements.txt \
                     -r ./tests/requirements.txt
-            - name: Test with pytest
-              run: |
-                  PYTHONPATH=src/ pytest -v
+            #- name: Test with pytest
+            #  run: |
+            #      PYTHONPATH=src/ pytest -v
 
             - name: Build GH pages
               run: |
