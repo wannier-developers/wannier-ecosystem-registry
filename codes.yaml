@@ -103,3 +103,42 @@ wanniertools:
         documentation_url: http://www.wanniertools.com/#
         title: WannierTools
         logo: https://github.com/quanshengwu/wannier_tools/raw/master/wt-logo.jpg
+
+wannierberri:
+    categories:
+        - tb
+        - berry
+    git_url: https://github.com/wannier-berri/wannier-berri
+    metadata:
+        description: |
+            A code to calculate different properties by means of Wannier interpolation: Berry curvature, orbital moment and derived properties.
+        documentation_url: https://wannier-berri.org
+        interface_docs_url: https://docs.wannier-berri.org/en/master/docs/system.html#id3
+        title: Wannier Berri
+        logo: https://docs.wannier-berri.org/en/master/_static/Book.png
+
+strawberrypy:
+    categories:
+        - tb
+        - berry
+    git_url: https://github.com/strawberrypy-developers/strawberrypy
+    metadata:
+        description: |
+            StraWBerryPy (Single-poinT and local invaRiAnts for Wannier Berriologies in Python) is a Python package to calculate topological invariants and quantum-geometrical quantities in non-crystalline topological insulators.
+        documentation_url: https://strawberrypy.readthedocs.io/en/latest/
+        title: StraWBerryPy
+        logo: https://strawberrypy.readthedocs.io/en/latest/_static/logo.png
+
+linres:
+    categories:
+        - tb
+        - berry
+    hosted_on: https://bitbucket.org/zeleznyj/wannier-linear-response/src/master/
+    metadata:
+        description: |
+            Code for calculating linear response properties based on tight-binding Hamiltonians. It is mainly used with tight-binding Hamiltonians obtained from wannier90 or from the FPLO DFT code but any tight-binding can be used. A python program for generating sd models that is also interfaced to the linear response code is also included. The code utilizes Kubo formula with constant Gamma approximation to calculate conductivity and the anomalous Hall effect, spin Hall effect and the current induced spin-polarization, which gives rise to the spin-orbit torque. Other response quantities can be easily implemented.
+        documentation_url: https://bitbucket.org/zeleznyj/wannier-linear-response/wiki/Home
+        title: linres
+        logo: None
+
+
