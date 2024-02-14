@@ -1,4 +1,4 @@
-# Wannier Software Ecosystem Registry code entry
+# Wannier Software Ecosystem Registry
 
 This repository contains the **source code** of the official Wannier Software Ecosystem Registry.
 
