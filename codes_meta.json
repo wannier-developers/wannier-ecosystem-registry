@@ -17,8 +17,7 @@
     "EPIq": {
       "categories": [
         "elph",
-        "transport",
-        "ab-initio_engines"
+        "transport"
       ],
       "metadata": {
         "description": "EPIq is an open-source software for the calculation of electron-phonon coupling related properties.\n",
@@ -33,8 +32,7 @@
     "EPW": {
       "categories": [
         "elph",
-        "transport",
-        "ab-initio_engines"
+        "transport"
       ],
       "metadata": {
         "description": "EPW is an open-source community code for ab initio calculations of electron-phonon interactions using Density-Functional Perturbation Theory and Maximally Localized Wannier Functions.\n",
@@ -77,8 +75,7 @@
     "Perturbo": {
       "categories": [
         "elph",
-        "transport",
-        "ab-initio_engines"
+        "transport"
       ],
       "metadata": {
         "description": "PERTURBO is open source software to compute from first principles the scattering processes between charge carriers (electrons and holes) and phonons, defects, and photons in solid state materials, including metals, semiconductors, oxides, and insulators.\n",
@@ -92,8 +89,7 @@
     "Phoebe": {
       "categories": [
         "elph",
-        "transport",
-        "ab-initio_engines"
+        "transport"
       ],
       "metadata": {
         "description": "Phoebe is an open-source code for the ab-initio computation of electron and phonon transport properties of crystalline materials.\n",
@@ -219,8 +215,7 @@
     "elphbolt": {
       "categories": [
         "elph",
-        "transport",
-        "ab-initio_engines"
+        "transport"
       ],
       "metadata": {
         "description": "elphbolt (short for electron-phonon Boltzmann transport) is a modern Fortran (2018 standard) suite of transport codes. It provides a solver for both the coupled and decoupled electron and phonon Boltzmann transport equations (BTEs)\n",
