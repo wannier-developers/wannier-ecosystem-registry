@@ -12,10 +12,9 @@
         "title": "ABINIT",
         "logo": "https://www.abinit.org/themes/abinit/logo-abinit-2015.svg"
       },
-      "name": "ABINIT",
       "subpage": "codes/ABINIT.html"
     },
-    "Quantum ESPRESSO": {
+    "QuantumESPRESSO": {
       "categories": [
         "ab-initio_engines"
       ],
@@ -27,7 +26,6 @@
         "title": "Quantum ESPRESSO",
         "logo": "https://www.quantum-espresso.org/wp-content/uploads/2022/03/quantum_ogo_ok.png"
       },
-      "name": "Quantum ESPRESSO",
       "subpage": "codes/QuantumESPRESSO.html"
     },
     "VASP": {
@@ -41,7 +39,6 @@
         "title": "VASP",
         "logo": "https://www.vasp.at/wiki/images/vasp_logo_alpha.png"
       },
-      "name": "VASP",
       "subpage": "codes/VASP.html"
     },
     "WIEN2k": {
@@ -54,7 +51,6 @@
         "title": "WIEN2k",
         "logo": "http://susi.theochem.tuwien.ac.at/img/wien2k_logo_3.gif"
       },
-      "name": "WIEN2k",
       "subpage": "codes/WIEN2k.html"
     },
     "YAMBO": {
@@ -69,7 +65,6 @@
         "sourcecode_url": "https://github.com/yambo-code/yambo.git",
         "logo": "https://fresh.yambo-code.eu/wp-content/uploads/2023/02/yambo_logo_overlay.svg"
       },
-      "name": "YAMBO",
       "subpage": "codes/YAMBO.html"
     },
     "linres": {
@@ -85,7 +80,6 @@
         "title": "linres",
         "logo": "None"
       },
-      "name": "linres",
       "subpage": "codes/linres.html"
     },
     "pythtb": {
@@ -101,7 +95,6 @@
         "sourcecode_url": "https://pypi.org/project/pythtb/",
         "logo": "https://www.physics.rutgers.edu/pythtb/_images/graphene.png"
       },
-      "name": "pythtb",
       "subpage": "codes/pythtb.html"
     },
     "strawberrypy": {
@@ -117,7 +110,6 @@
         "title": "StraWBerryPy",
         "logo": "https://strawberrypy.readthedocs.io/en/latest/_static/logo.png"
       },
-      "name": "strawberrypy",
       "subpage": "codes/strawberrypy.html"
     },
     "tbmodels": {
@@ -133,7 +125,6 @@
         "documentation_url": "https://tbmodels.greschd.ch/en/latest/tutorial.html#id3",
         "logo": "https://tbmodels.greschd.ch/en/latest/_images/tbmodels_logo.jpg"
       },
-      "name": "tbmodels",
       "subpage": "codes/tbmodels.html"
     },
     "wannierberri": {
@@ -149,7 +140,6 @@
         "title": "Wannier Berri",
         "logo": "https://docs.wannier-berri.org/en/master/_static/Book.png"
       },
-      "name": "wannierberri",
       "subpage": "codes/wannierberri.html"
     },
     "wanniertools": {
@@ -165,7 +155,6 @@
         "documentation_url": "http://www.wanniertools.com/",
         "logo": "https://github.com/quanshengwu/wannier_tools/raw/master/wt-logo.jpg"
       },
-      "name": "wanniertools",
       "subpage": "codes/wanniertools.html"
     },
     "z2pack": {
@@ -180,7 +169,6 @@
         "title": "Z2Pack",
         "logo": "https://z2pack.greschd.ch/en/latest/_static/z2_logo_150.png"
       },
-      "name": "z2pack",
       "subpage": "codes/z2pack.html"
     }
   },
@@ -209,7 +197,7 @@
       "description": "Codes to perform simulation within dynamical mean-field theory (DMFT)",
       "title": "Dynamical mean-field theory"
     },
-    "IO-auto": {
+    "io-auto": {
       "description": "Codes and automation platforms for automation, high-throughput computing, I/O generation and parsing.",
       "title": "I/O and automation"
     },
