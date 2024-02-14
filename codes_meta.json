@@ -213,6 +213,20 @@
       },
       "subpage": "codes/ase.html"
     },
+    "bigdft": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "BigDFT is a free software package for physicists and chemists, the main program allows the total energy, charge density, and electronic structure of systems made of electrons and nuclei (molecules and periodic/crystalline solids) to be calculated within density functional theory (DFT), using pseudopotentials, and a wavelet basis.\n",
+        "title": "BigDFT",
+        "homepage_url": "https://l_sim.gitlab.io/bigdft-doc/index.html",
+        "documentation_url": "https://l_sim.gitlab.io/bigdft-suite/index.html",
+        "sourcecode_url": "https://l_sim.gitlab.io/bigdft-suite/users/install.html",
+        "logo": "https://l_sim.gitlab.io/bigdft-doc/wp-content/uploads/2020/11/bigdft-logo-retina.png"
+      },
+      "subpage": "codes/bigdft.html"
+    },
     "elk": {
       "categories": [
         "ab-initio_engines"
@@ -257,13 +271,41 @@
       },
       "subpage": "codes/linres.html"
     },
+    "nanotcad": {
+      "categories": [
+        "transport"
+      ],
+      "metadata": {
+        "description": "NanoTCAD ViDES is able to simulate nanoscale devices, through the self-consistent solution of the Poisson and the Schroedinger equations, by means of the Non-Equilibrium Green’s Function (NEGF) formalism.\n",
+        "title": "NanoTCAD ViDES",
+        "homepage_url": "http://vides.nanotcad.com/vides/",
+        "documentation_url": "http://vides.nanotcad.com/vides/documentation",
+        "sourcecode_url": "http://vides.nanotcad.com/vides/download-4",
+        "logo": "http://vides.nanotcad.com/vides/wp-content/uploads/2015/10/Screen-Shot-2015-10-07-at-3.39.55-PM.png"
+      },
+      "subpage": "codes/nanotcad.html"
+    },
+    "octopus": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "Octopus is a scientific program aimed at the ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time. Nuclei are described classically as point particles. Electron-nucleus interaction is described within the pseudopotential approximation.\n",
+        "title": "BigDFT",
+        "homepage_url": "https://octopus-code.org/documentation/13/",
+        "documentation_url": "https://octopus-code.org/documentation/13/manual/",
+        "sourcecode_url": "https://octopus-code.org/documentation/13/manual/install/",
+        "logo": "https://octopus-code.org/documentation//13/images/180px-Octopus_logo.png"
+      },
+      "subpage": "codes/octopus.html"
+    },
     "openMX": {
       "categories": [
         "ab-initio_engines"
       ],
       "metadata": {
         "description": "OpenMX (Open source package for Material eXplorer) is a software package for  nano-scale material simulations based on density functional theories (DFT),  norm-conserving pseudopotentials, and pseudo-atomic localized basis functions. The  methods and algorithms used in OpenMX and their implementation are carefully designed  for the realization of large-scale ab initio electronic structure calculations on  parallel computers based on the MPI or MPI/OpenMP hybrid parallelism. The efficient  implementation of DFT enables us to investigate electronic, magnetic, and geometrical  structures of a wide variety of materials such as bulk materials, surfaces,  interfaces, liquids, and low-dimensional materials. Systems consisting of 1000 atoms can be treated using the conventional diagonalization method if several hundreds  cores on a parallel computer are used.\n",
-        "title": "openMX",
+        "title": "OpenMX",
         "homepage_url": "https://www.openmx-square.org",
         "documentation_url": "https://www.openmx-square.org/openmx_man3.9/index.html",
         "sourcecode_url": "https://www.openmx-square.org/download.html",
@@ -300,6 +342,33 @@
       },
       "subpage": "codes/pythtb.html"
     },
+    "pyw90": {
+      "categories": [
+        "io-auto"
+      ],
+      "metadata": {
+        "description": "pyWannier90 uses the library-mode of wannier90 to perform the wannierization on the wave function obtained by PySCF or VASP.\n",
+        "title": "pyWannier90",
+        "homepage_url": "https://github.com/hungpham2017/pyWannier90",
+        "sourcecode_url": "https://github.com/hungpham2017/pyWannier90",
+        "logo": "None"
+      },
+      "subpage": "codes/pyw90.html"
+    },
+    "sisl": {
+      "categories": [
+        "tb"
+      ],
+      "metadata": {
+        "description": "sisl is an open-source easy-to-use density functional theory APIframework to post-analyse density functional theory codes output as wellas providing tight-binding calculation capabilities. It couples to a widerange of density functional theory codes and has a high connection withLCAO codes such as Siesta. The tight-binding matrices can be used innon-equilibrium Green function calculations with TBtrans as a backend.\n",
+        "title": "sisl",
+        "homepage_url": "https://github.com/zerothi/sisl",
+        "documentation_url": "https://zerothi.github.io/sisl/index.html",
+        "sourcecode_url": "https://github.com/zerothi/sisl",
+        "logo": "None"
+      },
+      "subpage": "codes/sisl.html"
+    },
     "strawberrypy": {
       "categories": [
         "tb",
@@ -321,7 +390,7 @@
       ],
       "metadata": {
         "description": "TB2J is an open-source Python package for the automatic computation of magnetic interactions (including exchange and Dzyaloshinskii-Moriya) between atoms of magnetic crystals from density functional Hamiltonians based on Wanniernfunctions or linear combinations of atomic orbitals. The program is based on Green’s function method with the local rigid spin rotation treated as a perturbation.\n",
-        "title": "ASE",
+        "title": "TB2J",
         "homepage_url": "https://tb2j.readthedocs.io/en/latest/#",
         "documentation_url": "https://tb2j.readthedocs.io/en/latest/src/tutorial.html",
         "sourcecode_url": "https://github.com/mailhexu/TB2J",
@@ -343,6 +412,19 @@
         "logo": "https://tbmodels.greschd.ch/en/latest/_images/tbmodels_logo.jpg"
       },
       "subpage": "codes/tbmodels.html"
+    },
+    "w90iopy": {
+      "categories": [
+        "io-auto"
+      ],
+      "metadata": {
+        "description": "A Python library for reading and writing Wannier90 files.\n",
+        "title": "wannier90io-python",
+        "homepage_url": "https://github.com/wannier-developers/wannier90io-python",
+        "sourcecode_url": "https://github.com/wannier-developers/wannier90io-python",
+        "logo": "None"
+      },
+      "subpage": "codes/w90iopy.html"
     },
     "wannier90": {
       "categories": [
@@ -389,6 +471,19 @@
         "logo": "https://github.com/quanshengwu/wannier_tools/raw/master/wt-logo.jpg"
       },
       "subpage": "codes/wanniertools.html"
+    },
+    "wien2wannier": {
+      "categories": [
+        "io-auto"
+      ],
+      "metadata": {
+        "description": "WIEN2WANNIER is an interface program between Wien2k and Wannier90 to obtain maximally localized Wannier functions from Wien2k calculations.\n",
+        "title": "WIEN2WANNIER",
+        "homepage_url": "https://wien2wannier.github.io",
+        "sourcecode_url": "https://github.com/wien2wannier/wien2wannier",
+        "logo": "https://avatars.githubusercontent.com/u/15891682?s=48&v=4one"
+      },
+      "subpage": "codes/wien2wannier.html"
     },
     "z2pack": {
       "categories": [
