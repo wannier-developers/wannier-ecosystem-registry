@@ -21,6 +21,7 @@
       ],
       "metadata": {
         "description": "Quantum ESPRESSO is an integrated suite of open-source computer codes for quantum simulations of materials using state-of-the art electronic-structure techniques, based on density-functional theory, density-functional perturbation theory, and many-body perturbation theory, within the plane-wave pseudo-potential and projector-augmented-wave approaches\n",
+        "homepage_url": "https://www.quantum-espresso.org",
         "sourcecode_url": "https://gitlab.com/QEF/q-e",
         "documentation_url": "https://www.quantum-espresso.org/documentation/",
         "title": "Quantum ESPRESSO",
@@ -62,8 +63,9 @@
       ],
       "metadata": {
         "description": "A FORTRAN/C code for Many-Body calculations in solid state and molecular physics.\n",
-        "documentation_url": "https://www.yambo-code.eu/wiki/index.php/Main_Page",
         "title": "Yambo",
+        "homepage_url": "https://www.yambo-code.eu",
+        "documentation_url": "https://www.yambo-code.eu/wiki/index.php/Main_Page",
         "sourcecode_url": "https://github.com/yambo-code/yambo.git",
         "logo": "https://fresh.yambo-code.eu/wp-content/uploads/2023/02/yambo_logo_overlay.svg"
       },
@@ -93,9 +95,10 @@
       ],
       "metadata": {
         "description": "Simple solver for tight binding models for use in condensed matter physics and materials science.\n",
-        "sourcecode_url": "https://pypi.org/project/pythtb/",
-        "documentation_url": "https://www.physics.rutgers.edu/pythtb/usage.html#pythtb.w90",
         "title": "PythTB",
+        "homepage_url": "https://www.physics.rutgers.edu/pythtb/",
+        "documentation_url": "https://www.physics.rutgers.edu/pythtb/usage.html#pythtb.w90",
+        "sourcecode_url": "https://pypi.org/project/pythtb/",
         "logo": "https://www.physics.rutgers.edu/pythtb/_images/graphene.png"
       },
       "name": "pythtb",
@@ -110,6 +113,7 @@
         "description": "StraWBerryPy (Single-poinT and local invaRiAnts for Wannier Berriologies in Python) is a Python package to calculate topological invariants and quantum-geometrical quantities in non-crystalline topological insulators.\n",
         "sourcecode_url": "https://github.com/strawberrypy-developers/strawberrypy",
         "documentation_url": "https://strawberrypy.readthedocs.io/en/latest/",
+        "homepage_url": "https://strawberrypy.readthedocs.io",
         "title": "StraWBerryPy",
         "logo": "https://strawberrypy.readthedocs.io/en/latest/_static/logo.png"
       },
@@ -123,9 +127,10 @@
       ],
       "metadata": {
         "description": "Bmodels is a Python package for evaluating tight-binding models. It features methods for reading and writing tight-binding models to various formats, and evaluating the Hamiltonian and eigenvalues of the system. It is considerably faster than comparable packages, enabling it to handle first-principles derived tight-binding models.\n",
+        "title": "TBmodels",
+        "homepage_url": "https://tbmodels.greschd.ch",
         "sourcecode_url": "https://github.com/Z2PackDev/TBmodels",
         "documentation_url": "https://tbmodels.greschd.ch/en/latest/tutorial.html#id3",
-        "title": "TBmodels",
         "logo": "https://tbmodels.greschd.ch/en/latest/_images/tbmodels_logo.jpg"
       },
       "name": "tbmodels",
@@ -154,9 +159,10 @@
       ],
       "metadata": {
         "description": "An open-source software package for novel topological materials.\n",
-        "sourcecode_url": "https://github.com/quanshengwu/wannier_tools",
-        "documentation_url": "http://www.wanniertools.com/#",
         "title": "WannierTools",
+        "sourcecode_url": "https://github.com/quanshengwu/wannier_tools",
+        "homepage_url": "http://www.wanniertools.com/",
+        "documentation_url": "http://www.wanniertools.com/",
         "logo": "https://github.com/quanshengwu/wannier_tools/raw/master/wt-logo.jpg"
       },
       "name": "wanniertools",
@@ -168,6 +174,7 @@
       ],
       "metadata": {
         "description": "Z2Pack automates the calculation of topological numbers of band-structures. It works with first-principles calculations (z2pack.fp), tight-binding models (z2pack.tb) and explicit Hamiltonian matrices (z2pack.hm).\n",
+        "homepage_url": "https://z2pack.greschd.ch/",
         "sourcecode_url": "https://github.com/Z2PackDev/Z2Pack",
         "documentation_url": "https://z2pack.greschd.ch/",
         "title": "Z2Pack",
