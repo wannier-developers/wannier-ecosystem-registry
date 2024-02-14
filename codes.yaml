@@ -352,7 +352,7 @@ sisl:
         - tb
     metadata:
         description: |
-sisl is an open-source easy-to-use density functional theory APIframework to post-analyse density functional theory codes output as wellas providing tight-binding calculation capabilities. It couples to a widerange of density functional theory codes and has a high connection withLCAO codes such as Siesta. The tight-binding matrices can be used innon-equilibrium Green function calculations with TBtrans as a backend.
+            sisl is an open-source easy-to-use density functional theory APIframework to post-analyse density functional theory codes output as wellas providing tight-binding calculation capabilities. It couples to a widerange of density functional theory codes and has a high connection withLCAO codes such as Siesta. The tight-binding matrices can be used innon-equilibrium Green function calculations with TBtrans as a backend.
         title: sisl
         homepage_url: https://github.com/zerothi/sisl
         documentation_url: https://zerothi.github.io/sisl/index.html
@@ -364,7 +364,7 @@ nanotcad:
         - transport
     metadata:
         description: |
-NanoTCAD ViDES is able to simulate nanoscale devices, through the self-consistent solution of the Poisson and the Schroedinger equations, by means of the Non-Equilibrium Green’s Function (NEGF) formalism.
+            NanoTCAD ViDES is able to simulate nanoscale devices, through the self-consistent solution of the Poisson and the Schroedinger equations, by means of the Non-Equilibrium Green’s Function (NEGF) formalism.
         title: NanoTCAD ViDES
         homepage_url: http://vides.nanotcad.com/vides/
         documentation_url: http://vides.nanotcad.com/vides/documentation
@@ -376,7 +376,7 @@ pyw90:
         - io-auto
     metadata:
         description: |  
-pyWannier90 uses the library-mode of wannier90 to perform the wannierization on the wave function obtained by PySCF or VASP.
+            pyWannier90 uses the library-mode of wannier90 to perform the wannierization on the wave function obtained by PySCF or VASP.
         title: pyWannier90
         homepage_url: https://github.com/hungpham2017/pyWannier90
         sourcecode_url: https://github.com/hungpham2017/pyWannier90
@@ -387,7 +387,7 @@ w90iopy:
         - io-auto
     metadata:
         description: |
-A Python library for reading and writing Wannier90 files.
+            A Python library for reading and writing Wannier90 files.
         title: wannier90io-python
         homepage_url: https://github.com/wannier-developers/wannier90io-python
         sourcecode_url: https://github.com/wannier-developers/wannier90io-python 
@@ -398,7 +398,7 @@ wien2wannier:
         - io-auto
     metadata:
         description: |
-WIEN2WANNIER is an interface program between Wien2k and Wannier90 to obtain maximally localized Wannier functions from Wien2k calculations.
+            WIEN2WANNIER is an interface program between Wien2k and Wannier90 to obtain maximally localized Wannier functions from Wien2k calculations.
         title: WIEN2WANNIER
         homepage_url: https://wien2wannier.github.io
         sourcecode_url: https://github.com/wien2wannier/wien2wannier
@@ -409,7 +409,7 @@ bigdft:
         - ab-initio_engines
     metadata:
         description: |
-BigDFT is a free software package for physicists and chemists, the main program allows the total energy, charge density, and electronic structure of systems made of electrons and nuclei (molecules and periodic/crystalline solids) to be calculated within density functional theory (DFT), using pseudopotentials, and a wavelet basis.
+            BigDFT is a free software package for physicists and chemists, the main program allows the total energy, charge density, and electronic structure of systems made of electrons and nuclei (molecules and periodic/crystalline solids) to be calculated within density functional theory (DFT), using pseudopotentials, and a wavelet basis.
         title: BigDFT
         homepage_url: https://l_sim.gitlab.io/bigdft-doc/index.html
         documentation_url: https://l_sim.gitlab.io/bigdft-suite/index.html
@@ -421,7 +421,7 @@ octopus:
         - ab-initio_engines
     metadata:
         description: |
-Octopus is a scientific program aimed at the ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time. Nuclei are described classically as point particles. Electron-nucleus interaction is described within the pseudopotential approximation.
+            Octopus is a scientific program aimed at the ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time. Nuclei are described classically as point particles. Electron-nucleus interaction is described within the pseudopotential approximation.
         title: BigDFT
         homepage_url: https://octopus-code.org/documentation/13/
         documentation_url: https://octopus-code.org/documentation/13/manual/
