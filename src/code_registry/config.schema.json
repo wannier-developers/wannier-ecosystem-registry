@@ -51,7 +51,7 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "apps": {
+                "codes": {
                     "type": "string"
                 },
                 "categories": {
@@ -59,7 +59,7 @@
                 }
             },
             "required": [
-                "apps",
+                "codes",
                 "categories"
             ],
             "title": "Data"
@@ -68,13 +68,13 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-                "apps": {
+                "codes": {
                     "type": "string"
                 },
                 "categories": {
                     "type": "string"
                 },
-                "apps_meta": {
+                "codes_meta": {
                     "type": "string"
                 },
                 "metadata": {
@@ -82,8 +82,8 @@
                 }
             },
             "required": [
-                "apps",
-                "apps_meta",
+                "codes",
+                "codes_meta",
                 "categories",
                 "metadata"
             ],
