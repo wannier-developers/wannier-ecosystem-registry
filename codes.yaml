@@ -322,7 +322,6 @@ wannier90:
         sourcecode_url: https://github.com/wannier-developers/wannier90
         logo: https://avatars.githubusercontent.com/u/19983471?s=200&v=4
 
-
 ase:
     categories:
         - wannier_engines
@@ -335,3 +334,15 @@ ase:
         documentation_url: https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html
         sourcecode_url: https://gitlab.com/ase/ase
         logo: https://gitlab.com/uploads/-/system/project/avatar/470007/ase256.png?width=96
+
+tb2j:
+    categories:
+        - magnetism
+    metadata:
+        description: |
+            TB2J is an open-source Python package for the automatic computation of magnetic interactions (including exchange and Dzyaloshinskii-Moriya) between atoms of magnetic crystals from density functional Hamiltonians based on Wanniernfunctions or linear combinations of atomic orbitals. The program is based on Green’s function method with the local rigid spin rotation treated as a perturbation.
+        title: ASE
+        homepage_url: https://tb2j.readthedocs.io/en/latest/#
+        documentation_url: https://tb2j.readthedocs.io/en/latest/src/tutorial.html
+        sourcecode_url: https://github.com/mailhexu/TB2J
+        logo: None

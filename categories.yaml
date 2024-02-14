@@ -23,3 +23,7 @@ io-auto:
 transport:
     description: Codes to perform calculations of electronic transport
     title: Transport
+magnetism:
+    description: Codes to calculate magnetic properties
+    title: Magnetism
+
