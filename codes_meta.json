@@ -198,6 +198,21 @@
       },
       "subpage": "codes/YAMBO.html"
     },
+    "ase": {
+      "categories": [
+        "wannier_engines",
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "The Atomic Simulation Environment (ASE) is a set of tools and Python modules for setting up, manipulating, running, visualizing and analyzing atomistic simulations\n",
+        "title": "ASE",
+        "homepage_url": "https://wiki.fysik.dtu.dk/ase/",
+        "documentation_url": "https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html",
+        "sourcecode_url": "https://gitlab.com/ase/ase",
+        "logo": "https://gitlab.com/uploads/-/system/project/avatar/470007/ase256.png?width=96"
+      },
+      "subpage": "codes/ase.html"
+    },
     "elk": {
       "categories": [
         "ab-initio_engines"
@@ -314,6 +329,22 @@
         "logo": "https://tbmodels.greschd.ch/en/latest/_images/tbmodels_logo.jpg"
       },
       "subpage": "codes/tbmodels.html"
+    },
+    "wannier90": {
+      "categories": [
+        "wannier_engines",
+        "berry",
+        "transport"
+      ],
+      "metadata": {
+        "description": "Wannier90 is an open-source code for generating maximally-localized Wannier functions and using them to compute advanced electronic properties of materials with high efficiency and accuracy\n",
+        "title": "wannier90",
+        "homepage_url": "https://wannier.org",
+        "documentation_url": "https://wannier.org/support/",
+        "sourcecode_url": "https://github.com/wannier-developers/wannier90",
+        "logo": "https://avatars.githubusercontent.com/u/19983471?s=200&v=4"
+      },
+      "subpage": "codes/wannier90.html"
     },
     "wannierberri": {
       "categories": [
