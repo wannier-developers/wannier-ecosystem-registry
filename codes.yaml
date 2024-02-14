@@ -224,7 +224,7 @@ openMX:
     categories:
         - ab-initio_engines
     metadata:
-        description:
+        description: |
             OpenMX (Open source package for Material eXplorer) is a software package for  nano-scale material simulations based on density functional theories (DFT),  norm-conserving pseudopotentials, and pseudo-atomic localized basis functions. The  methods and algorithms used in OpenMX and their implementation are carefully designed  for the realization of large-scale ab initio electronic structure calculations on  parallel computers based on the MPI or MPI/OpenMP hybrid parallelism. The efficient  implementation of DFT enables us to investigate electronic, magnetic, and geometrical  structures of a wide variety of materials such as bulk materials, surfaces,  interfaces, liquids, and low-dimensional materials. Systems consisting of 1000 atoms can be treated using the conventional diagonalization method if several hundreds  cores on a parallel computer are used.
         title: openMX
         homepage_url: https://www.openmx-square.org
@@ -236,7 +236,7 @@ elk:
     categories:
         - ab-initio_engines
     metadata:
-        description: 
+        description: |
 An all-electron full-potential linearised augmented-plane wave (LAPW) code with many advanced features
         title: Elk
         homepage_url: https://elk.sourceforge.io
