@@ -23,9 +23,9 @@
                 {% if code.metadata.logo %}
                     <!-- img with error handler for dead links (fallback to ecosystem logo) -->
                     <img src="{{ code.metadata.logo }}" alt="{{ code.metadata.title }}"
-                        onerror="this.src='static/img/ecosystem-logo.png';this.onerror='';">
+                        onerror="this.src='static/img/ecosystem-missing-logo.png';this.onerror='';">
                 {% else %}
-                    <img src="static/img/ecosystem-logo.png" alt="{{ code.metadata.title }}">
+                    <img src="static/img/ecosystem-missing-logo.png" alt="{{ code.metadata.title }}">
                 {% endif %}
                 </a>
             </div>

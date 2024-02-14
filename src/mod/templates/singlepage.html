@@ -13,9 +13,9 @@
     <div class="submenu-entry">
         <div class="submenu-img">
             {% if metadata.logo %}
-                <img src="{{ metadata.logo }}" alt="{{ metadata.title }}">
+                <img src="{{ metadata.logo }}" alt="{{ metadata.title }}" onerror="this.src='../static/img/ecosystem-missing-logo.png';this.onerror='';">
             {% else %}
-                <img src="../static/img/ecosystem-logo.png" alt="{{ metadata.title }}">
+                <img src="../static/img/ecosystem-missing-logo.png" alt="{{ metadata.title }}">
             {% endif %}
         </div>
         <div class="code-card-text">
