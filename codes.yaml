@@ -146,7 +146,7 @@ linres:
         title: linres
         logo: None
 
-WannierIO.jl:
+WannierIOjl:
     categories:
         - io-auto
     metadata:
@@ -158,7 +158,7 @@ WannierIO.jl:
         sourcecode_url: https://github.com/qiaojunfeng/WannierIO.jl
         logo: None
 
-Wannier.jl:
+Wannierjl:
     categories:
         - wannier_engines
         - tb
