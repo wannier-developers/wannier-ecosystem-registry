@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="gotobutton.svg"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    version="1.1"
    id="svg4563"
-   viewBox="0 0 253.59375 190.50717"
-   height="53.765358mm"
-   width="71.569794mm">
+   viewBox="0 0 253.59378 40.639762"
+   height="11.469444mm"
+   width="71.569801mm"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4565" />
   <sodipodi:namedview
      inkscape:document-rotation="0"
      inkscape:window-maximized="0"
-     inkscape:window-y="124"
-     inkscape:window-x="498"
+     inkscape:window-y="96"
+     inkscape:window-x="444"
      inkscape:window-height="806"
-     inkscape:window-width="1348"
+     inkscape:window-width="1352"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -31,15 +30,18 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="72.220401"
-     inkscape:cx="127.77293"
+     inkscape:cy="-57.004746"
+     inkscape:cx="127.73838"
      inkscape:zoom="1.6752991"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base" />
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata4568">
     <rdf:RDF>
@@ -48,12 +50,11 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-159.29582,-75.493408)"
+     transform="translate(-159.29582,-196.36082)"
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
@@ -89,14 +90,5 @@
            width="9.6428576"
            id="rect1070" /></flowRegion><flowPara
          id="flowPara1072" /></flowRoot>
-    <image
-       style="stroke-width:1.78165"
-       id="image88"
-       xlink:href=""
-       preserveAspectRatio="none"
-       height="107.42873"
-       width="76.277763"
-       x="247.95383"
-       y="75.493408" />
   </g>
 </svg>
