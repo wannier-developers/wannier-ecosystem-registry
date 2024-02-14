@@ -59,7 +59,6 @@ def generate_codes_meta(data, schema=None):
     for code_name in sorted(data.codes.keys()):
         logger.info(f"  - {code_name}")
         code_data = fetch_code_data(data.codes[code_name], code_name)
-        code_data["name"] = code_name
         code_data["subpage"] = os.path.join(
             "codes", util.get_html_code_fname(code_name)
         )

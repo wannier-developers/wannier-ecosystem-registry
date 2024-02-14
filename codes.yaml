@@ -11,7 +11,7 @@ YAMBO:
         sourcecode_url: https://github.com/yambo-code/yambo.git
         logo: https://fresh.yambo-code.eu/wp-content/uploads/2023/02/yambo_logo_overlay.svg
 
-Quantum ESPRESSO:
+QuantumESPRESSO:
     categories:
         - ab-initio_engines
     metadata:

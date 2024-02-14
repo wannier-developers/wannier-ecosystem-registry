@@ -17,7 +17,7 @@ elph:
 dmft:
     description: Codes to perform simulation within dynamical mean-field theory (DMFT)
     title: Dynamical mean-field theory
-IO-auto:
+io-auto:
     description: Codes and automation platforms for automation, high-throughput computing, I/O generation and parsing.
     title: I/O and automation
 transport:

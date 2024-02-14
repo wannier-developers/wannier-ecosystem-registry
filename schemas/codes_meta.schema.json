@@ -48,24 +48,11 @@
                         "type": "string"
                     }
                 },
-                "name": {
-                  "type": "string"
-                },
                 "metadata": {
                     "$ref": "https://wannier-developers.github.io/wannier-ecosystem-registry/schemas/v1/metadata.schema.json#/definitions/Welcome"
                 },
-                "gitinfo": {
-                    "$ref": "#/definitions/CodeGitinfo"
-                },
                 "subpage": {
                     "type": "string"
-                },
-                "logo": {
-                    "type": "string",
-                    "format": "uri",
-                    "qt-uri-protocols": [
-                        "https"
-                    ]
                 }
             },
             "required": [
@@ -73,17 +60,6 @@
                 "metadata"
             ],
             "title": "Code"
-        },
-        "CodeGitinfo": {
-            "type": "object",
-            "additionalProperties": false,
-            "propertyNames": {
-              "pattern": "^(HEAD)|(refs\/(.+?))\/.+$"
-            },
-            "patternProperties": {
-              ".*": {"type": "string"}
-            },
-            "title": "CodeGitinfo"
         },
         "Categories": {
             "type": "object",
