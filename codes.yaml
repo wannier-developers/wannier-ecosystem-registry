@@ -341,7 +341,7 @@ tb2j:
     metadata:
         description: |
             TB2J is an open-source Python package for the automatic computation of magnetic interactions (including exchange and Dzyaloshinskii-Moriya) between atoms of magnetic crystals from density functional Hamiltonians based on Wanniernfunctions or linear combinations of atomic orbitals. The program is based on Green’s function method with the local rigid spin rotation treated as a perturbation.
-        title: ASE
+        title: TB2J
         homepage_url: https://tb2j.readthedocs.io/en/latest/#
         documentation_url: https://tb2j.readthedocs.io/en/latest/src/tutorial.html
         sourcecode_url: https://github.com/mailhexu/TB2J
@@ -404,3 +404,27 @@ WIEN2WANNIER is an interface program between Wien2k and Wannier90 to obtain maxi
         homepage_url: https://wien2wannier.github.io
         sourcecode_url: https://github.com/wien2wannier/wien2wannier
         logo: https://avatars.githubusercontent.com/u/15891682?s=48&v=4one
+
+bigdft:
+    categories:
+        - ab-initio_engines
+    metadata:
+        description: |
+BigDFT is a free software package for physicists and chemists, the main program allows the total energy, charge density, and electronic structure of systems made of electrons and nuclei (molecules and periodic/crystalline solids) to be calculated within density functional theory (DFT), using pseudopotentials, and a wavelet basis.
+        title: BigDFT
+        homepage_url: https://l_sim.gitlab.io/bigdft-doc/index.html
+        documentation_url: https://l_sim.gitlab.io/bigdft-suite/index.html
+        sourcecode_url: https://l_sim.gitlab.io/bigdft-suite/users/install.html
+        logo: https://l_sim.gitlab.io/bigdft-doc/wp-content/uploads/2020/11/bigdft-logo-retina.png
+
+octopus:
+    categories:
+        - ab-initio_engines
+    metadata:
+        description: |
+Octopus is a scientific program aimed at the ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time. Nuclei are described classically as point particles. Electron-nucleus interaction is described within the pseudopotential approximation.
+        title: BigDFT
+        homepage_url: https://octopus-code.org/documentation/13/
+        documentation_url: https://octopus-code.org/documentation/13/manual/
+        sourcecode_url:https://octopus-code.org/documentation/13/manual/install/
+        logo: https://octopus-code.org/documentation//13/images/180px-Octopus_logo.png
