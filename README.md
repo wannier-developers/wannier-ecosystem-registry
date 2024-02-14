@@ -4,7 +4,7 @@ This repository contains the **source code** of the official Wannier Software Ec
 
 <p align="center">
  <a href="https://wannier-developers.github.io/wannier-ecosystem-registry" rel="Go to the registry">
-  <img src="src/static/gotobutton.svg">
+  <img src="https://raw.githubusercontent.com/wannier-developers/wannier-ecosystem-registry/main/src/static/gotobutton.svg">
  </a>
 </p>
 
