@@ -171,3 +171,64 @@ Wannierjl:
         documentation_url: https://wannierjl.org/
         sourcecode_url: https://github.com/qiaojunfeng/Wannier.jl
         logo: None
+SIESTA:
+    categories:
+        - ab-initio_engines
+    metadata:
+        description: |
+            SIESTA is both a method and its computer program implementation, to perform efficient electronic structure calculations and ab initio molecular dynamics simulations of molecules and solids. SIESTA's efficiency stems from the use of a basis set of strictly-localized atomic orbitals. A very important feature of the code is that its accuracy and cost can be tuned in a wide range, from quick exploratory calculations to highly accurate simulations matching the quality of other approaches, such as plane-wave methods.
+        title: SIESTA
+        homepage_url: https://siesta-project.org/siesta/
+        documentation_url: https://siesta-project.org/siesta/Documentation/index.html
+        sourcecode_url: https://gitlab.com/siesta-project/siesta
+        logo: https://gitlab.com/uploads/-/system/project/avatar/10326616/SIESTA-logo-233x125.png?width=96
+
+FLEUR:
+    categories:
+        - ab-initio_engines
+    metadata:
+        description: |
+            The FLEUR project provides a simulation tool for materials properties using density functional theory and related methods.
+        title: FLEUR
+        homepage_url: https://www.flapw.de/MaX-7.0/
+        documentation_url: https://www.flapw.de/MaX-7.0/documentation/
+        sourcecode_url: https://iffgit.fz-juelich.de/fleur/fleur
+        logo: https://iffgit.fz-juelich.de/uploads/-/system/project/avatar/19/fleur__1_.gif?width=96
+
+GPAW:
+    categories:
+        - ab-initio_engines
+    metadata:
+        description: |
+            GPAW is a density-functional theory (DFT) Python code based on the projector-augmented wave (PAW) method and the atomic simulation environment (ASE). 
+        title: GPAW
+        homepage_url: https://wiki.fysik.dtu.dk/gpaw/
+        documentation_url: https://wiki.fysik.dtu.dk/gpaw/documentation/documentation.html
+        sourcecode_url: https://gitlab.com/gpaw/gpaw
+        logo: https://gitlab.com/uploads/-/system/project/avatar/875951/gpaw-logo.png?width=96
+
+pySCF:
+    categories:
+        - ab-initio_engines
+    metadata:
+        description: |
+            The Python-based Simulations of Chemistry Framework (PySCF) is an open-source collection of electronic structure modules powered by Python. The package provides a simple, lightweight, and efficient platform for quantum chemistry calculations and methodology development. PySCF can be used to simulate the properties of molecules, crystals, and custom Hamiltonians using mean-field and post-mean-field methods. To ensure ease of extensibility, almost all of the features in PySCF are implemented in Python, while computationally critical parts are implemented and optimized in C.
+        title: pySCF
+        homepage_url: https://pyscf.org
+        documentation_url: https://pyscf.org/user.html
+        sourcecode_url: https://github.com/pyscf/pyscf
+        logo: https://pyscf.org/_images/pyscf-logo.png
+
+openMX:
+    categories:
+        - ab-initio_engines
+    metadata:
+        description: |
+OpenMX (Open source package for Material eXplorer) is a software package for nano-scale material simulations based on density functional theories (DFT), norm-conserving pseudopotentials, and pseudo-atomic localized basis functions. The methods and algorithms used in OpenMX and their implementation are carefully designed for the realization of large-scale ab initio electronic structure calculations on parallel computers based on the MPI or MPI/OpenMP hybrid parallelism. The efficient implementation of DFT enables us to investigate electronic, magnetic, and geometrical structures of a wide variety of materials such as bulk materials, surfaces, interfaces, liquids, and low-dimensional materials. Systems consisting of 1000 atoms can be treated using the conventional diagonalization method if several hundreds cores on a parallel computer are used.
+        title: openMX
+        homepage_url: https://www.openmx-square.org
+        documentation_url: https://www.openmx-square.org/openmx_man3.9/index.html
+        sourcecode_url: https://www.openmx-square.org/download.html
+        logo: https://www.openmx-square.org/OpenMX_LOGO_S.PNG
+
+
