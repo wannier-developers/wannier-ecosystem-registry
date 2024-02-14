@@ -145,3 +145,29 @@ linres:
         documentation_url: https://bitbucket.org/zeleznyj/wannier-linear-response/wiki/Home
         title: linres
         logo: None
+
+WannierIOjl:
+    categories:
+        - io-auto
+    metadata:
+        description: |
+            A Julia package for reading/writing wannier90 file formats.
+        title: WannierIO.jl
+        homepage_url: https://io.wannierjl.org/
+        documentation_url: https://io.wannierjl.org/
+        sourcecode_url: https://github.com/qiaojunfeng/WannierIO.jl
+        logo: None
+
+Wannierjl:
+    categories:
+        - wannier_engines
+        - tb
+        - berry
+    metadata:
+        description: |
+            A Julia package for Wannierization and Wannier interpolations.
+        title: Wannier.jl
+        homepage_url: https://wannierjl.org/
+        documentation_url: https://wannierjl.org/
+        sourcecode_url: https://github.com/qiaojunfeng/Wannier.jl
+        logo: None
