@@ -315,6 +315,20 @@
       },
       "subpage": "codes/strawberrypy.html"
     },
+    "tb2j": {
+      "categories": [
+        "magnetism"
+      ],
+      "metadata": {
+        "description": "TB2J is an open-source Python package for the automatic computation of magnetic interactions (including exchange and Dzyaloshinskii-Moriya) between atoms of magnetic crystals from density functional Hamiltonians based on Wanniernfunctions or linear combinations of atomic orbitals. The program is based on Green’s function method with the local rigid spin rotation treated as a perturbation.\n",
+        "title": "ASE",
+        "homepage_url": "https://tb2j.readthedocs.io/en/latest/#",
+        "documentation_url": "https://tb2j.readthedocs.io/en/latest/src/tutorial.html",
+        "sourcecode_url": "https://github.com/mailhexu/TB2J",
+        "logo": "None"
+      },
+      "subpage": "codes/tb2j.html"
+    },
     "tbmodels": {
       "categories": [
         "tb",
@@ -423,6 +437,10 @@
     "transport": {
       "description": "Codes to perform calculations of electronic transport",
       "title": "Transport"
+    },
+    "magnetism": {
+      "description": "Codes to calculate magnetic properties",
+      "title": "Magnetism"
     }
   }
 }
