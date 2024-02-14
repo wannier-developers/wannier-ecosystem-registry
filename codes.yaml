@@ -226,7 +226,7 @@ openMX:
     metadata:
         description: |
             OpenMX (Open source package for Material eXplorer) is a software package for  nano-scale material simulations based on density functional theories (DFT),  norm-conserving pseudopotentials, and pseudo-atomic localized basis functions. The  methods and algorithms used in OpenMX and their implementation are carefully designed  for the realization of large-scale ab initio electronic structure calculations on  parallel computers based on the MPI or MPI/OpenMP hybrid parallelism. The efficient  implementation of DFT enables us to investigate electronic, magnetic, and geometrical  structures of a wide variety of materials such as bulk materials, surfaces,  interfaces, liquids, and low-dimensional materials. Systems consisting of 1000 atoms can be treated using the conventional diagonalization method if several hundreds  cores on a parallel computer are used.
-        title: openMX
+        title: OpenMX
         homepage_url: https://www.openmx-square.org
         documentation_url: https://www.openmx-square.org/openmx_man3.9/index.html
         sourcecode_url: https://www.openmx-square.org/download.html
@@ -345,4 +345,40 @@ tb2j:
         homepage_url: https://tb2j.readthedocs.io/en/latest/#
         documentation_url: https://tb2j.readthedocs.io/en/latest/src/tutorial.html
         sourcecode_url: https://github.com/mailhexu/TB2J
+        logo: None
+
+sisl:
+    categories:
+        - tb
+    metadata:
+        description: |
+            sisl is an open-source easy-to-use density functional theory API framework to post-analyse density functional theory codes output as well as providing tight-binding calculation capabilities. It couples to a wide range of density functional theory codes and has a high connection with LCAO codes such as Siesta. The tight-binding matrices can be used in non-equilibrium Green function calculations with TBtrans as a backend
+        title: sisl
+        homepage_url: https://github.com/zerothi/sisl
+        documentation_url: https://zerothi.github.io/sisl/index.html
+        sourcecode_url: https://github.com/zerothi/sisl
+        logo: None
+
+nanotcad:
+    categories:
+        - transport
+    metadata:
+        description: |
+            NanoTCAD ViDES is able to simulate nanoscale devices, through the self-consistent solution of the Poisson and the Schroedinger equations, by means of the Non-Equilibrium Green’s Function (NEGF) formalism.
+        title: NanoTCAD ViDES
+        homepage_url: http://vides.nanotcad.com/vides/
+        documentation_url: http://vides.nanotcad.com/vides/documentation
+        sourcecode_url: http://vides.nanotcad.com/vides/download-4
+        logo: http://vides.nanotcad.com/vides/wp-content/uploads/2015/10/Screen-Shot-2015-10-07-at-3.39.55-PM.png
+
+
+pyw90:
+    categories:
+        - io-auto
+    metadata:
+        description: |  
+pyWannier90 uses the library-mode of wannier90 to perform the wannierization on the wave function obtained by PySCF or VASP.
+        title: pyWannier90
+        homepage_url: https://github.com/hungpham2017/pyWannier90
+        sourcecode_url: https://github.com/hungpham2017/pyWannier90
         logo: None
