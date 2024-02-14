@@ -240,7 +240,7 @@ elk:
 An all-electron full-potential linearised augmented-plane wave (LAPW) code with many advanced features
         title: Elk
         homepage_url: https://elk.sourceforge.io
-        documentation_url:https://elk.sourceforge.io/#documentation
+        documentation_url: https://elk.sourceforge.io/#documentation
         sourcecode_url: https://elk.sourceforge.io/#download
         logo: https://scc.dipc.org/docs/software/applications/elk/images/elk-logo.jpeg
 
