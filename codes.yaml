@@ -352,7 +352,7 @@ sisl:
         - tb
     metadata:
         description: |
-            sisl is an open-source easy-to-use density functional theory API framework to post-analyse density functional theory codes output as well as providing tight-binding calculation capabilities. It couples to a wide range of density functional theory codes and has a high connection with LCAO codes such as Siesta. The tight-binding matrices can be used in non-equilibrium Green function calculations with TBtrans as a backend
+sisl is an open-source easy-to-use density functional theory APIframework to post-analyse density functional theory codes output as wellas providing tight-binding calculation capabilities. It couples to a widerange of density functional theory codes and has a high connection withLCAO codes such as Siesta. The tight-binding matrices can be used innon-equilibrium Green function calculations with TBtrans as a backend
         title: sisl
         homepage_url: https://github.com/zerothi/sisl
         documentation_url: https://zerothi.github.io/sisl/index.html
@@ -370,7 +370,6 @@ NanoTCAD ViDES is able to simulate nanoscale devices, through the self-consisten
         documentation_url: http://vides.nanotcad.com/vides/documentation
         sourcecode_url: http://vides.nanotcad.com/vides/download-4
         logo: http://vides.nanotcad.com/vides/wp-content/uploads/2015/10/Screen-Shot-2015-10-07-at-3.39.55-PM.png
-
 
 pyw90:
     categories:
