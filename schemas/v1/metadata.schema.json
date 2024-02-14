@@ -7,7 +7,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "codename": {
+        "title": {
           "type": "string"
         },
         "description": {
@@ -24,7 +24,7 @@
           "type": "string",
           "format": "uri"
         },
-        "interface_docs_url": {
+        "documentation_url": {
           "type": "string",
           "format": "uri"
         },
