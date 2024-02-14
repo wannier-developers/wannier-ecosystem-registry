@@ -14,6 +14,97 @@
       },
       "subpage": "codes/ABINIT.html"
     },
+    "EPIq": {
+      "categories": [
+        "elph",
+        "transport",
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "EPIq is an open-source software for the calculation of electron-phonon coupling related properties.\n",
+        "title": "EPIq",
+        "homepage_url": "https://the-epiq-team.gitlab.io/epiq-site",
+        "documentation_url": "https://the-epiq-team.gitlab.io/epiq-site",
+        "sourcecode_url": "https://gitlab.com/the-epiq-team/epiq",
+        "logo": "https://the-epiq-team.gitlab.io/epiq-site/assets/images/logo_black_200.png"
+      },
+      "subpage": "codes/EPIq.html"
+    },
+    "EPW": {
+      "categories": [
+        "elph",
+        "transport",
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "EPW is an open-source community code for ab initio calculations of electron-phonon interactions using Density-Functional Perturbation Theory and Maximally Localized Wannier Functions.\n",
+        "title": "EPW",
+        "homepage_url": "https://epw-code.org",
+        "documentation_url": "https://docs.epw-code.org/doc/Documentation.html",
+        "sourcecode_url": "https://gitlab.com/QEF/q-e/-/tree/develop/EPW",
+        "logo": "https://epw-code.org/assets/img/epw_logo.png"
+      },
+      "subpage": "codes/EPW.html"
+    },
+    "FLEUR": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "The FLEUR project provides a simulation tool for materials properties using density functional theory and related methods.\n",
+        "title": "FLEUR",
+        "homepage_url": "https://www.flapw.de/MaX-7.0/",
+        "documentation_url": "https://www.flapw.de/MaX-7.0/documentation/",
+        "sourcecode_url": "https://iffgit.fz-juelich.de/fleur/fleur",
+        "logo": "https://iffgit.fz-juelich.de/uploads/-/system/project/avatar/19/fleur__1_.gif?width=96"
+      },
+      "subpage": "codes/FLEUR.html"
+    },
+    "GPAW": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "GPAW is a density-functional theory (DFT) Python code based on the projector-augmented wave (PAW) method and the atomic simulation environment (ASE).\n",
+        "title": "GPAW",
+        "homepage_url": "https://wiki.fysik.dtu.dk/gpaw/",
+        "documentation_url": "https://wiki.fysik.dtu.dk/gpaw/documentation/documentation.html",
+        "sourcecode_url": "https://gitlab.com/gpaw/gpaw",
+        "logo": "https://gitlab.com/uploads/-/system/project/avatar/875951/gpaw-logo.png?width=96"
+      },
+      "subpage": "codes/GPAW.html"
+    },
+    "Perturbo": {
+      "categories": [
+        "elph",
+        "transport",
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "PERTURBO is open source software to compute from first principles the scattering processes between charge carriers (electrons and holes) and phonons, defects, and photons in solid state materials, including metals, semiconductors, oxides, and insulators.\n",
+        "title": "Perturbo",
+        "homepage_url": "https://perturbo-code.github.io",
+        "documentation_url": "https://perturbo-code.github.io",
+        "logo": "https://perturbo-code.github.io/images/PERTURBO_logo_site.svg"
+      },
+      "subpage": "codes/Perturbo.html"
+    },
+    "Phoebe": {
+      "categories": [
+        "elph",
+        "transport",
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "Phoebe is an open-source code for the ab-initio computation of electron and phonon transport properties of crystalline materials.\n",
+        "title": "Phoebe",
+        "homepage_url": "https://mir-group.github.io/phoebe/index",
+        "documentation_url": "https://mir-group.github.io/phoebe/index",
+        "sourcecode_url": "https://github.com/mir-group/phoebe",
+        "logo": "https://github.com/mir-group/phoebe/blob/develop/doc/sphinx/source/_static/icon.png?raw=true"
+      },
+      "subpage": "codes/Phoebe.html"
+    },
     "QuantumESPRESSO": {
       "categories": [
         "ab-initio_engines"
@@ -27,6 +118,20 @@
         "logo": "https://www.quantum-espresso.org/wp-content/uploads/2022/03/quantum_ogo_ok.png"
       },
       "subpage": "codes/QuantumESPRESSO.html"
+    },
+    "SIESTA": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "SIESTA is both a method and its computer program implementation, to perform efficient electronic structure calculations and ab initio molecular dynamics simulations of molecules and solids. SIESTA's efficiency stems from the use of a basis set of strictly-localized atomic orbitals. A very important feature of the code is that its accuracy and cost can be tuned in a wide range, from quick exploratory calculations to highly accurate simulations matching the quality of other approaches, such as plane-wave methods.\n",
+        "title": "SIESTA",
+        "homepage_url": "https://siesta-project.org/siesta/",
+        "documentation_url": "https://siesta-project.org/siesta/Documentation/index.html",
+        "sourcecode_url": "https://gitlab.com/siesta-project/siesta",
+        "logo": "https://gitlab.com/uploads/-/system/project/avatar/10326616/SIESTA-logo-233x125.png?width=96"
+      },
+      "subpage": "codes/SIESTA.html"
     },
     "VASP": {
       "categories": [
@@ -97,6 +202,36 @@
       },
       "subpage": "codes/YAMBO.html"
     },
+    "elk": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "An all-electron full-potential linearised augmented-plane wave (LAPW) code with many advanced features\n",
+        "title": "Elk",
+        "homepage_url": "https://elk.sourceforge.io",
+        "documentation_url": "https://elk.sourceforge.io/#documentation",
+        "sourcecode_url": "https://elk.sourceforge.io/#download",
+        "logo": "https://scc.dipc.org/docs/software/applications/elk/images/elk-logo.jpeg"
+      },
+      "subpage": "codes/elk.html"
+    },
+    "elphbolt": {
+      "categories": [
+        "elph",
+        "transport",
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "elphbolt (short for electron-phonon Boltzmann transport) is a modern Fortran (2018 standard) suite of transport codes. It provides a solver for both the coupled and decoupled electron and phonon Boltzmann transport equations (BTEs)\n",
+        "title": "elphbolt",
+        "homepage_url": "https://github.com/nakib/elphbolt",
+        "documentation_url": "https://github.com/nakib/elphbolt",
+        "sourcecode_url": "https://github.com/nakib/elphbolt",
+        "logo": "https://github.com/nakib/elphbolt/raw/develop/logo/logo.png"
+      },
+      "subpage": "codes/elphbolt.html"
+    },
     "linres": {
       "categories": [
         "tb",
@@ -111,6 +246,34 @@
         "logo": "None"
       },
       "subpage": "codes/linres.html"
+    },
+    "openMX": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "OpenMX (Open source package for Material eXplorer) is a software package for  nano-scale material simulations based on density functional theories (DFT),  norm-conserving pseudopotentials, and pseudo-atomic localized basis functions. The  methods and algorithms used in OpenMX and their implementation are carefully designed  for the realization of large-scale ab initio electronic structure calculations on  parallel computers based on the MPI or MPI/OpenMP hybrid parallelism. The efficient  implementation of DFT enables us to investigate electronic, magnetic, and geometrical  structures of a wide variety of materials such as bulk materials, surfaces,  interfaces, liquids, and low-dimensional materials. Systems consisting of 1000 atoms can be treated using the conventional diagonalization method if several hundreds  cores on a parallel computer are used.\n",
+        "title": "openMX",
+        "homepage_url": "https://www.openmx-square.org",
+        "documentation_url": "https://www.openmx-square.org/openmx_man3.9/index.html",
+        "sourcecode_url": "https://www.openmx-square.org/download.html",
+        "logo": "https://www.openmx-square.org/OpenMX_LOGO_S.PNG"
+      },
+      "subpage": "codes/openMX.html"
+    },
+    "pySCF": {
+      "categories": [
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "The Python-based Simulations of Chemistry Framework (PySCF) is an open-source collection of electronic structure modules powered by Python. The package provides a simple, lightweight, and efficient platform for quantum chemistry calculations and methodology development. PySCF can be used to simulate the properties of molecules, crystals, and custom Hamiltonians using mean-field and post-mean-field methods. To ensure ease of extensibility, almost all of the features in PySCF are implemented in Python, while computationally critical parts are implemented and optimized in C.\n",
+        "title": "pySCF",
+        "homepage_url": "https://pyscf.org",
+        "documentation_url": "https://pyscf.org/user.html",
+        "sourcecode_url": "https://github.com/pyscf/pyscf",
+        "logo": "https://pyscf.org/_images/pyscf-logo.png"
+      },
+      "subpage": "codes/pySCF.html"
     },
     "pythtb": {
       "categories": [
