@@ -116,7 +116,14 @@ def build_from_config(config: Config):
     )
 
     # Generate the aggregated codes metadata registry.
-    codes_meta = generate_codes_meta(data=data, schema=None)  # schemas.codes_meta)
+    # NOTE: if you want to change the schema, you need to replace below once
+    # `schema=None`, then push on GitHub so the deploy GitHub action runs and
+    # deploy the schema on GitHub pages. At this point, the schema validation
+    # (that checks the JSONschema files online, i.e., the deployed ones on
+    # GitHub) will work again.
+    # Put back `schema=schemas.codes_meta`, test locally that it works, and
+    # then push to GitHub.
+    codes_meta = generate_codes_meta(data=data, schema=schemas.codes_meta)
 
     # Remove previous build (if present).
 
