@@ -201,7 +201,7 @@ GPAW:
         - ab-initio_engines
     metadata:
         description: |
-            GPAW is a density-functional theory (DFT) Python code based on the projector-augmented wave (PAW) method and the atomic simulation environment (ASE). 
+            GPAW is a density-functional theory (DFT) Python code based on the projector-augmented wave (PAW) method and the atomic simulation environment (ASE).
         title: GPAW
         homepage_url: https://wiki.fysik.dtu.dk/gpaw/
         documentation_url: https://wiki.fysik.dtu.dk/gpaw/documentation/documentation.html
@@ -237,10 +237,78 @@ elk:
         - ab-initio_engines
     metadata:
         description: |
-An all-electron full-potential linearised augmented-plane wave (LAPW) code with many advanced features
+            An all-electron full-potential linearised augmented-plane wave (LAPW) code with many advanced features
         title: Elk
         homepage_url: https://elk.sourceforge.io
         documentation_url: https://elk.sourceforge.io/#documentation
         sourcecode_url: https://elk.sourceforge.io/#download
         logo: https://scc.dipc.org/docs/software/applications/elk/images/elk-logo.jpeg
 
+EPW:
+    categories:
+        - elph
+        - transport
+        - ab-initio_engines
+    metadata:
+        description: |
+            EPW is an open-source community code for ab initio calculations of electron-phonon interactions using Density-Functional Perturbation Theory and Maximally Localized Wannier Functions.
+        title: EPW
+        homepage_url: https://epw-code.org
+        documentation_url: https://docs.epw-code.org/doc/Documentation.html
+        sourcecode_url: https://gitlab.com/QEF/q-e/-/tree/develop/EPW
+        logo: https://epw-code.org/assets/img/epw_logo.png
+
+Perturbo:
+    categories:
+        - elph
+        - transport
+        - ab-initio_engines
+    metadata:
+        description: |
+            PERTURBO is open source software to compute from first principles the scattering processes between charge carriers (electrons and holes) and phonons, defects, and photons in solid state materials, including metals, semiconductors, oxides, and insulators.
+        title: Perturbo
+        homepage_url: https://perturbo-code.github.io
+        documentation_url: https://perturbo-code.github.io
+        logo: https://perturbo-code.github.io/images/PERTURBO_logo_site.svg
+
+EPIq:
+    categories:
+        - elph
+        - transport
+        - ab-initio_engines
+    metadata:
+        description: |
+            EPIq is an open-source software for the calculation of electron-phonon coupling related properties.
+        title: EPIq
+        homepage_url: https://the-epiq-team.gitlab.io/epiq-site
+        documentation_url: https://the-epiq-team.gitlab.io/epiq-site
+        sourcecode_url: https://gitlab.com/the-epiq-team/epiq
+        logo: https://the-epiq-team.gitlab.io/epiq-site/assets/images/logo_black_200.png
+
+Phoebe:
+    categories:
+        - elph
+        - transport
+        - ab-initio_engines
+    metadata:
+        description: |
+            Phoebe is an open-source code for the ab-initio computation of electron and phonon transport properties of crystalline materials.
+        title: Phoebe
+        homepage_url: https://mir-group.github.io/phoebe/index
+        documentation_url: https://mir-group.github.io/phoebe/index
+        sourcecode_url: https://github.com/mir-group/phoebe
+        logo: https://github.com/mir-group/phoebe/blob/develop/doc/sphinx/source/_static/icon.png?raw=true
+
+elphbolt:
+    categories:
+        - elph
+        - transport
+        - ab-initio_engines
+    metadata:
+        description: |
+            elphbolt (short for electron-phonon Boltzmann transport) is a modern Fortran (2018 standard) suite of transport codes. It provides a solver for both the coupled and decoupled electron and phonon Boltzmann transport equations (BTEs)
+        title: elphbolt
+        homepage_url: https://github.com/nakib/elphbolt
+        documentation_url: https://github.com/nakib/elphbolt
+        sourcecode_url: https://github.com/nakib/elphbolt
+        logo: https://github.com/nakib/elphbolt/raw/develop/logo/logo.png
