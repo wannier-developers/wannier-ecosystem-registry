@@ -12,8 +12,8 @@
 
     <div class="submenu-entry">
         <div class="submenu-img">
-            {% if logo %}
-                <img src="{{ logo }}" alt="{{ metadata.title }}">
+            {% if metadata.logo %}
+                <img src="{{ metadata.logo }}" alt="{{ metadata.title }}">
             {% else %}
                 <img src="../static/img/ecosystem-logo.png" alt="{{ metadata.title }}">
             {% endif %}
@@ -33,34 +33,31 @@
     </div>
 
     <h2>General information</h2>
-    {% if metadata.git_url %}
-    <div>
+    {% if metadata.homepage_url %}
         <p>
-            <strong>Source code</strong>: <a href="{{ git_url }}" target="_blank">Go to the code source code</a>
-        </p>
-    </div>
-    {% endif %}
-
-    {% if metadata.external_url %}
-        <p>
-            <strong>Code homepage</strong>: <a href="{{ metadata.external_url }}" target="_blank">Go to code homepage</a>
+            <strong>Code homepage</strong>: <a href="{{ metadata.homepage_url }}" target="_blank">{{ metadata.homepage_url }}</a>
         <p>
     {% endif %}
 
     {% if metadata.documentation_url %}
         <p>
-            <strong>Documentation</strong>: <a href="{{ metadata.documentation_url }}" target="_blank">Go to code documentation</a>
+            <strong>Full documentation</strong>: <a href="{{ metadata.documentation_url }}" target="_blank">{{ metadata.documentation_url }}</a>
         <p>
+    {% endif %}
+
+    {% if metadata.sourcecode_url %}
+    <div>
+        <p>
+            <strong>Source code</strong>: <a href="{{ metadata.sourcecode_url }}" target="_blank">{{ metadata.sourcecode_url }}</a>
+        </p>
+    </div>
     {% endif %}
 
     <h2>
         Detailed information
     </h2>
-    {% if metadata %}
+    {% if metadata.description %}
     <div id='description'>
-        <p>
-            {% if hosted_on %} <strong>Source code:</strong> <a href="{{ git_url }}">{{ hosted_on }}</a>{% endif %}
-        </p>
         <p>
             <strong>Short description</strong>: {{ metadata.description }}
         </p>

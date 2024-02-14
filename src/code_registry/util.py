@@ -17,21 +17,8 @@ def get_html_code_fname(code_name):
     return f"{simple_string}.html"
 
 
-def get_hosted_on(url):
-    netloc = urlparse(url).netloc
-
-    # Remove port (if any)
-    netloc = netloc.partition(":")[0]
-
-    # Remove subdomains (this only works for domain suffixes of length 1!)
-    # TODO: fix it for domains like yyy.co.uk
-    netloc = ".".join(netloc.split(".")[-2:])
-
-    return netloc
-
-
-def get_git_branches(git_url):
-    t, p = get_transport_and_path_from_url(git_url)
+def get_git_branches(sourcecode_url):
+    t, p = get_transport_and_path_from_url(sourcecode_url)
     branches = t.get_refs(p)
     res = {}
     for key, value in branches.items():
@@ -39,8 +26,8 @@ def get_git_branches(git_url):
     return res
 
 
-def get_git_author(git_url):
-    return urlparse(git_url).path.split("/")[1]
+def get_git_author(sourcecode_url):
+    return urlparse(sourcecode_url).path.split("/")[1]
 
 
 def load_json(path: Path) -> dict:

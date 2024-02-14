@@ -23,23 +23,9 @@ def complete_metadata(code_name, metadata, git_url):
 def fetch_code_data(code_data, code_name):
     """Fetch additional data for the given code data."""
 
-    # Get Git URL, fail build if git_url is not found or wrong
-    git_url = code_data.get("git_url", "")
-    hosted_on = util.get_hosted_on(git_url) if git_url else None
-
     # Check if categories are specified, warn if not
     if "categories" not in code_data:
         logger.info("  >> WARNING: No categories specified.")
-
-    code_data["metadata"] = complete_metadata(code_name, code_data["metadata"], git_url)
-    if git_url:
-        code_data["gitinfo"] = util.get_git_branches(git_url)
-    if hosted_on:
-        code_data["hosted_on"] = hosted_on
-
-    # Get logo URL, if it has been specified
-    if "logo" in code_data["metadata"]:
-        code_data["logo"] = code_data["metadata"]["logo"]
 
     return code_data
 

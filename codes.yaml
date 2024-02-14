@@ -2,21 +2,21 @@
 YAMBO:
     categories:
         - ab-initio_engines
-    git_url: https://github.com/yambo-code/yambo.git
     metadata:
         description: |
             A FORTRAN/C code for Many-Body calculations in solid state and molecular physics.
         documentation_url: https://www.yambo-code.eu/wiki/index.php/Main_Page
         title: Yambo
-        logo: data:image/jpeg;base64,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
+        sourcecode_url: https://github.com/yambo-code/yambo.git
+        logo: https://fresh.yambo-code.eu/wp-content/uploads/2023/02/yambo_logo_overlay.svg
 
 Quantum ESPRESSO:
     categories:
         - ab-initio_engines
-    git_url: https://gitlab.com/QEF/q-e
     metadata:
         description: |
             Quantum ESPRESSO is an integrated suite of open-source computer codes for quantum simulations of materials using state-of-the art electronic-structure techniques, based on density-functional theory, density-functional perturbation theory, and many-body perturbation theory, within the plane-wave pseudo-potential and projector-augmented-wave approaches
+        sourcecode_url: https://gitlab.com/QEF/q-e
         documentation_url: https://www.quantum-espresso.org/documentation/
         title: Quantum ESPRESSO
         logo: https://www.quantum-espresso.org/wp-content/uploads/2022/03/quantum_ogo_ok.png
@@ -25,32 +25,31 @@ ABINIT:
     categories:
         - ab-initio_engines
         - dmft
-    git_url: https://github.com/abinit/abinit
     metadata:
         description: |
             ABINIT is a software suite to calculate the optical, mechanical, vibrational, and other observable properties of materials. Starting from the quantum equations of density functional theory, you can build up to advanced applications with perturbation theories based on DFT, and many-body Green's functions (GW and DMFT).
-        documentation_url: https://www.abinit.org
+        sourcecode_url: https://github.com/abinit/abinit
+        homepage_url: https://www.abinit.org
         title: ABINIT
         logo: https://www.abinit.org/themes/abinit/logo-abinit-2015.svg
 
 WIEN2k:
     categories:
         - ab-initio_engines
-    hosted_on: http://susi.theochem.tuwien.ac.at
     metadata:
         description: |
             ABINIT is a software suite to calculate the optical, mechanical, vibrational, and other observable properties of materials. Starting from the quantum equations of density functional theory, you can build up to advanced applications with perturbation theories based on DFT, and many-body Green's functions (GW and DMFT).
-        documentation_url: http://susi.theochem.tuwien.ac.at
+        homepage_url: http://susi.theochem.tuwien.ac.at
         title: WIEN2k
         logo: http://susi.theochem.tuwien.ac.at/img/wien2k_logo_3.gif
 
 VASP:
     categories:
         - ab-initio_engines
-    hosted_on: https://www.vasp.at
     metadata:
         description: |
             The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.
+        homepage_url: https://www.vasp.at
         documentation_url: https://www.vasp.at/wiki/index.php/LWANNIER90
         title: VASP
         logo: https://www.vasp.at/wiki/images/vasp_logo_alpha.png
@@ -59,12 +58,11 @@ pythtb:
     categories:
         - tb
         - berry
-    hosted_on: https://pypi.org/project/pythtb/
     metadata:
         description: |
             Simple solver for tight binding models for use in condensed matter physics and materials science.
-        documentation_url: https://www.physics.rutgers.edu/pythtb/index.html
-        interface_docs_url: https://www.physics.rutgers.edu/pythtb/usage.html#pythtb.w90
+        sourcecode_url: https://pypi.org/project/pythtb/
+        documentation_url: https://www.physics.rutgers.edu/pythtb/usage.html#pythtb.w90
         title: PythTB
         logo: https://www.physics.rutgers.edu/pythtb/_images/graphene.png
 
@@ -72,22 +70,21 @@ tbmodels:
     categories:
         - tb
         - berry
-    git_url: https://github.com/Z2PackDev/TBmodels
     metadata:
         description: |
             Bmodels is a Python package for evaluating tight-binding models. It features methods for reading and writing tight-binding models to various formats, and evaluating the Hamiltonian and eigenvalues of the system. It is considerably faster than comparable packages, enabling it to handle first-principles derived tight-binding models.
-        documentation_url: https://tbmodels.greschd.ch/en/latest/tutorial.html
-        interface_docs_url: https://tbmodels.greschd.ch/en/latest/tutorial.html#id3
+        sourcecode_url: https://github.com/Z2PackDev/TBmodels
+        documentation_url: https://tbmodels.greschd.ch/en/latest/tutorial.html#id3
         title: TBmodels
         logo: https://tbmodels.greschd.ch/en/latest/_images/tbmodels_logo.jpg
 
 z2pack:
     categories:
         - berry
-    git_url: https://github.com/Z2PackDev/Z2Pack
     metadata:
         description: |
             Z2Pack automates the calculation of topological numbers of band-structures. It works with first-principles calculations (z2pack.fp), tight-binding models (z2pack.tb) and explicit Hamiltonian matrices (z2pack.hm).
+        sourcecode_url: https://github.com/Z2PackDev/Z2Pack
         documentation_url: https://z2pack.greschd.ch/
         title: Z2Pack
         logo: https://z2pack.greschd.ch/en/latest/_static/z2_logo_150.png
@@ -96,10 +93,10 @@ wanniertools:
     categories:
         - tb
         - berry
-    git_url: https://github.com/quanshengwu/wannier_tools
     metadata:
         description: |
             An open-source software package for novel topological materials.
+        sourcecode_url: https://github.com/quanshengwu/wannier_tools
         documentation_url: http://www.wanniertools.com/#
         title: WannierTools
         logo: https://github.com/quanshengwu/wannier_tools/raw/master/wt-logo.jpg
@@ -108,12 +105,12 @@ wannierberri:
     categories:
         - tb
         - berry
-    git_url: https://github.com/wannier-berri/wannier-berri
     metadata:
         description: |
             A code to calculate different properties by means of Wannier interpolation: Berry curvature, orbital moment and derived properties.
-        documentation_url: https://wannier-berri.org
-        interface_docs_url: https://docs.wannier-berri.org/en/master/docs/system.html#id3
+        sourcecode_url: https://github.com/wannier-berri/wannier-berri
+        homepage_url: https://wannier-berri.org
+        documentation_url: https://docs.wannier-berri.org/en/master/docs/system.html#id3
         title: Wannier Berri
         logo: https://docs.wannier-berri.org/en/master/_static/Book.png
 
@@ -121,10 +118,10 @@ strawberrypy:
     categories:
         - tb
         - berry
-    git_url: https://github.com/strawberrypy-developers/strawberrypy
     metadata:
         description: |
             StraWBerryPy (Single-poinT and local invaRiAnts for Wannier Berriologies in Python) is a Python package to calculate topological invariants and quantum-geometrical quantities in non-crystalline topological insulators.
+        sourcecode_url: https://github.com/strawberrypy-developers/strawberrypy
         documentation_url: https://strawberrypy.readthedocs.io/en/latest/
         title: StraWBerryPy
         logo: https://strawberrypy.readthedocs.io/en/latest/_static/logo.png
@@ -133,12 +130,11 @@ linres:
     categories:
         - tb
         - berry
-    hosted_on: https://bitbucket.org/zeleznyj/wannier-linear-response/src/master/
     metadata:
         description: |
             Code for calculating linear response properties based on tight-binding Hamiltonians. It is mainly used with tight-binding Hamiltonians obtained from wannier90 or from the FPLO DFT code but any tight-binding can be used. A python program for generating sd models that is also interfaced to the linear response code is also included. The code utilizes Kubo formula with constant Gamma approximation to calculate conductivity and the anomalous Hall effect, spin Hall effect and the current induced spin-polarization, which gives rise to the spin-orbit torque. Other response quantities can be easily implemented.
+        sourcecode_url: https://bitbucket.org/zeleznyj/wannier-linear-response/src/master/
+        homepage_url: https://bitbucket.org/zeleznyj/wannier-linear-response/wiki/Home
         documentation_url: https://bitbucket.org/zeleznyj/wannier-linear-response/wiki/Home
         title: linres
         logo: None
-
-
