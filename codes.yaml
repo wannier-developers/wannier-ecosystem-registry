@@ -364,7 +364,7 @@ nanotcad:
         - transport
     metadata:
         description: |
-            NanoTCAD ViDES is able to simulate nanoscale devices, through the self-consistent solution of the Poisson and the Schroedinger equations, by means of the Non-Equilibrium Green’s Function (NEGF) formalism.
+NanoTCAD ViDES is able to simulate nanoscale devices, through the self-consistent solution of the Poisson and the Schroedinger equations, by means of the Non-Equilibrium Green’s Function (NEGF) formalism.
         title: NanoTCAD ViDES
         homepage_url: http://vides.nanotcad.com/vides/
         documentation_url: http://vides.nanotcad.com/vides/documentation
@@ -382,3 +382,25 @@ pyWannier90 uses the library-mode of wannier90 to perform the wannierization on 
         homepage_url: https://github.com/hungpham2017/pyWannier90
         sourcecode_url: https://github.com/hungpham2017/pyWannier90
         logo: None
+
+w90iopy:
+    categories:
+        - io-auto
+    metadata:
+        description: |
+A Python library for reading and writing Wannier90 files.
+        title: wannier90io-python
+        homepage_url: https://github.com/wannier-developers/wannier90io-python
+        sourcecode_url: https://github.com/wannier-developers/wannier90io-python 
+        logo: None
+
+wien2wannier:
+    categories:
+        - io-auto
+    metadata:
+        description: |
+WIEN2WANNIER is an interface program between Wien2k and Wannier90 to obtain maximally localized Wannier functions from Wien2k calculations.
+        title: WIEN2WANNIER
+        homepage_url: https://wien2wannier.github.io
+        sourcecode_url: https://github.com/wien2wannier/wien2wannier
+        logo: https://avatars.githubusercontent.com/u/15891682?s=48&v=4one
