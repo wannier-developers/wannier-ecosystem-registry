@@ -256,6 +256,21 @@
       },
       "subpage": "codes/elphbolt.html"
     },
+    "koopmans": {
+      "categories": [
+        "wannier_engines",
+        "ab-initio_engines"
+      ],
+      "metadata": {
+        "description": "Koopmans  is a python package for performing and automating Koopmans spectral functional calculations with Quantum ESPRESSO and Wannier90, developed by researchers in the THEOS research group at EPFL\n",
+        "title": "Koopmans",
+        "homepage_url": "https://koopmans-functionals.org/en/latest/index.html",
+        "documentation_url": "https://koopmans-functionals.org/en/latest/index.html",
+        "sourcecode_url": "https://github.com/epfl-theos/koopmans",
+        "logo": "https://koopmans-functionals.org/en/latest/_images/koopmans_grey_on_transparent.png"
+      },
+      "subpage": "codes/koopmans.html"
+    },
     "linres": {
       "categories": [
         "tb",
