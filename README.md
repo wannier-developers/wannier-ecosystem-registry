@@ -34,10 +34,17 @@ Codes are added to the registry by adding an entry to the `codes.yaml` file with
         logo: https://www.quantum-espresso.org/wp-content/uploads/2022/03/quantum_ogo_ok.png
     ```
 
-    **Note**: To check which fields are optional, refer to the `valid keys` subsection; but it is highly encouraged to fill in all the fields to process your PR quickly. The `categories` field must contain at least one item.
+    **Note**: To check which fields are optional, refer to the ["Valid keys" subsection below](#valid-keys-for-code-metadata); but it is highly encouraged to fill in all the fields to process your PR quickly. The `categories` field must contain at least one item.
+
+    **Note**: a number of tests are run to ensure the syntactic validity of the file. These include also some "linting" checks, such as no trailing whitespaces, etc. If you create a pull request from your computer, you can avoid that the tests fail by installing and running the pre-commit checks. You can install them by running once, in the git folder that you checked out:
+    ```
+    pip install -r src/requirements.txt
+    pre-commit install
+    ```
+    The checks will then run when you commit files - they will check and automatically fix any simple syntax error (such as traling whitespaces) and you will be prompted to commit again once the files are fixed. If you want to check all files before committing, you can run `pre-commit run --all-files`.
 
 
-2. Your code will show up in the [Wannier-Functions Software Ecosystem Registry](https://wannier-developers.github.io/wannier-ecosystem-registry) once your pull request is approved and merged.
+3. Your code will show up in the [Wannier-Functions Software Ecosystem Registry](https://wannier-developers.github.io/wannier-ecosystem-registry) once your pull request is approved and merged.
 
 **Tip**: The registry supports the `$ref` syntax to reference externally hosted documents.
 That means you can reference metadata that is hosted at a different location, which makes it easier to dynamically update it.
