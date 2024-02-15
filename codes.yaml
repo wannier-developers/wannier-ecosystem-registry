@@ -375,7 +375,7 @@ pyw90:
     categories:
         - io-auto
     metadata:
-        description: |  
+        description: |
             pyWannier90 uses the library-mode of wannier90 to perform the wannierization on the wave function obtained by PySCF or VASP.
         title: pyWannier90
         homepage_url: https://github.com/hungpham2017/pyWannier90
@@ -390,7 +390,7 @@ w90iopy:
             A Python library for reading and writing Wannier90 files.
         title: wannier90io-python
         homepage_url: https://github.com/wannier-developers/wannier90io-python
-        sourcecode_url: https://github.com/wannier-developers/wannier90io-python 
+        sourcecode_url: https://github.com/wannier-developers/wannier90io-python
         logo: None
 
 wien2wannier:

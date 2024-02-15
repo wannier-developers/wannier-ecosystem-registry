@@ -26,4 +26,3 @@ transport:
 magnetism:
     description: Codes to calculate magnetic properties
     title: Magnetism
-
