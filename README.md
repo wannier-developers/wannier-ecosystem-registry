@@ -47,7 +47,7 @@ Codes are added to the registry by adding an entry to the `codes.yaml` file with
     ```console
     $ python src/build.py
     ```
-and then open the "src/build/html/index.html" file with a browser.
+    and then open the "src/build/html/index.html" file with a browser.
 
 3. Your code will show up in the [Wannier-Functions Software Ecosystem Registry](https://wannier-developers.github.io/wannier-ecosystem-registry) once your pull request is approved and merged.
 
