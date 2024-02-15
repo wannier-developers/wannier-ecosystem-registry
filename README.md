@@ -68,7 +68,7 @@ my-code:
     - ab-initio_engines
 ```
 
-*Feel free to propose a new codes category to be added to [`category.yaml`](https://github.com/wannier-developers/wannier-ecosystem-registry/blob/main/categories.yaml)) before adding your code.*
+*Feel free to propose a new codes category to be added to [`category.yaml`](https://github.com/wannier-developers/wannier-ecosystem-registry/blob/main/categories.yaml) before adding your code.*
 
 
 ### Valid keys for code entries in `codes.yaml`
@@ -107,10 +107,11 @@ $ PYTHONPATH=src pytest
 Executed tests include unit, integration, and validation tests.
 The validation tests check the validity of all schema files, the data files e.g. `codes.yaml` and `categories.yaml`, and if present the configuration file (`config.yaml`).
 
-To generate the website, simply execute the following script:
+To generate and visualize the website, simply execute the following commands:
 
 ```console
 $ python src/build.py
+$ firefox src/build/html/index.html
 ```
 
 The continuous-integration workflow is implemented with GitHub Actions, which runs the pre-commit hooks, unit, integration, and validation tests.
