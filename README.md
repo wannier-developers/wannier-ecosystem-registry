@@ -43,6 +43,11 @@ Codes are added to the registry by adding an entry to the `codes.yaml` file with
     ```
     The checks will then run when you commit files - they will check and automatically fix any simple syntax error (such as traling whitespaces) and you will be prompted to commit again once the files are fixed. If you want to check all files before committing, you can run `pre-commit run --all-files`.
 
+    **Note**:  To generate and visualize the website, simply execute the following command:
+    ```console
+    $ python src/build.py
+    ```
+    and then open the "src/build/html/index.html" file with a browser.
 
 3. Your code will show up in the [Wannier-Functions Software Ecosystem Registry](https://wannier-developers.github.io/wannier-ecosystem-registry) once your pull request is approved and merged.
 
@@ -68,7 +73,7 @@ my-code:
     - ab-initio_engines
 ```
 
-*Feel free to propose a new codes category to be added to [`category.yaml`](https://github.com/wannier-developers/wannier-ecosystem-registry/blob/main/categories.yaml)) before adding your code.*
+*Feel free to propose a new codes category to be added to [`category.yaml`](https://github.com/wannier-developers/wannier-ecosystem-registry/blob/main/categories.yaml) before adding your code.*
 
 
 ### Valid keys for code entries in `codes.yaml`
@@ -107,11 +112,7 @@ $ PYTHONPATH=src pytest
 Executed tests include unit, integration, and validation tests.
 The validation tests check the validity of all schema files, the data files e.g. `codes.yaml` and `categories.yaml`, and if present the configuration file (`config.yaml`).
 
-To generate the website, simply execute the following script:
 
-```console
-$ python src/build.py
-```
 
 The continuous-integration workflow is implemented with GitHub Actions, which runs the pre-commit hooks, unit, integration, and validation tests.
 In addition, all commits on the `main` branch are automatically deployed to GitHub pages.
