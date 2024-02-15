@@ -440,3 +440,16 @@ koopmans:
         documentation_url: https://koopmans-functionals.org/en/latest/index.html
         sourcecode_url: https://github.com/epfl-theos/koopmans
         logo: https://koopmans-functionals.org/en/latest/_images/koopmans_grey_on_transparent.png
+
+dynamics-w90:
+    categories:
+        - tb
+        - berry
+    metadata:
+        description: |
+            The dynamics-w90 package is a collection of codes for describing light-matter coupling and related properties from Wannier functions.
+        title: dynamics-w90
+        homepage_url: https://github.com/michaelschueler/dynamics-w90/wiki
+        documentation_url: https://github.com/michaelschueler/dynamics-w90/wiki
+        sourcecode_url: https://github.com/michaelschueler/dynamics-w90
+        logo: https://user-images.githubusercontent.com/53534090/197502799-cdeefb8c-6de6-4f3b-b52c-17af09db9849.svg
