@@ -427,3 +427,17 @@ octopus:
         documentation_url: https://octopus-code.org/documentation/13/manual/
         sourcecode_url: https://octopus-code.org/documentation/13/manual/install/
         logo: https://octopus-code.org/documentation//13/images/180px-Octopus_logo.png
+
+koopmans:
+    categories:
+        - wannier_engines
+        - ab-initio_engines
+    metadata:
+        description: |
+          Koopmans  is a python package for performing and automating Koopmans spectral functional calculations with Quantum ESPRESSO and Wannier90, developed by researchers in the THEOS research group at EPFL
+        title: Koopmnas
+        homepage_url: https://koopmans-functionals.org/en/latest/index.html
+        documentation_url: https://koopmans-functionals.org/en/latest/index.html
+        sourcecode_url: https://github.com/epfl-theos/koopmans
+        logo: https://koopmans-functionals.org/en/latest/_images/koopmans_grey_on_transparent.png
+
