@@ -435,7 +435,7 @@ koopmans:
     metadata:
         description: |
             Koopmans  is a python package for performing and automating Koopmans spectral functional calculations with Quantum ESPRESSO and Wannier90, developed by researchers in the THEOS research group at EPFL
-        title: Koopmnas
+        title: Koopmans
         homepage_url: https://koopmans-functionals.org/en/latest/index.html
         documentation_url: https://koopmans-functionals.org/en/latest/index.html
         sourcecode_url: https://github.com/epfl-theos/koopmans
