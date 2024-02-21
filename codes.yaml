@@ -465,6 +465,6 @@ WanTiBEXOS:
         title: WanTiBEXOS
         homepage_url: https://wantibexos.readthedocs.io/en/latest/index.html
         documentation_url: https://wantibexos.readthedocs.io/en/latest/index.html
-        source_code_url: https://github.com/ac-dias/wantibexos
+        sourcecode_url: https://github.com/ac-dias/wantibexos
         logo: https://wantibexos.readthedocs.io/en/latest/_static/WantBx.png
         
