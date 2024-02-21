@@ -566,6 +566,10 @@
     "magnetism": {
       "description": "Codes to calculate magnetic properties",
       "title": "Magnetism"
+    },
+    "bse": {
+      "description": "Codes that solves Bethe-Salpeter equation (BSE)",
+      "title": "Bethe-Salpeter Equation"
     }
   }
 }
