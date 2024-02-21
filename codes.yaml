@@ -468,3 +468,15 @@ wantibexos:
         sourcecode_url: https://github.com/ac-dias/wantibexos
         logo: https://wantibexos.readthedocs.io/en/latest/_static/WantBx.png
         
+DFTK:
+    categories:
+        - ab-initio_engines
+        - dmft
+    metadata:
+        description: |
+            The density-functional toolkit, DFTK for short, is a collection of Julia routines for plane-wave density-functional theory (DFT). The unique feature of this code is its emphasis on composability and flexibility with the goal of facilitating algorithmic and numerical developments as well as interdisciplinary collaboration in solid-state research.
+        sourcecode_url: https://github.com/JuliaMolSim/DFTK.jl/
+        homepage_url: https://dftk.org
+        documentation_url: https://docs.dftk.org/
+        title: DFTK
+        logo: https://raw.githubusercontent.com/JuliaMolSim/DFTK.jl/bb8bf8bb861bb9f29e27a7033d7ae65cf3a7344e/docs/logo/DFTK_2000x1000.png
