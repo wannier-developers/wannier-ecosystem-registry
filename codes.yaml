@@ -453,3 +453,17 @@ dynamics-w90:
         documentation_url: https://github.com/michaelschueler/dynamics-w90/wiki
         sourcecode_url: https://github.com/michaelschueler/dynamics-w90
         logo: https://user-images.githubusercontent.com/53534090/197502799-cdeefb8c-6de6-4f3b-b52c-17af09db9849.svg
+wantibexos:
+    categories:
+        - tb
+        - bse
+        - berry
+    metadata:
+        description: |
+            Tight Binding package that uses MLWF-TB Hamiltonian from Wannier90, to calculate electronic, optical and excitonic properties of solids. The main feature is to solve Bethe-Salpeter equation, to obtain linear optical response considering quasi-particle effects.
+        title: WanTiBEXOS
+        homepage_url: https://wantibexos.readthedocs.io/en/latest/index.html
+        documentation_url: https://wantibexos.readthedocs.io/en/latest/index.html
+        sourcecode_url: https://github.com/ac-dias/wantibexos
+        logo: https://wantibexos.readthedocs.io/en/latest/_static/WantBx.png
+
