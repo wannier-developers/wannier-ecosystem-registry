@@ -484,7 +484,6 @@ nemo5:
 DFTK:
     categories:
         - ab-initio_engines
-        - dmft
     metadata:
         description: |
             The density-functional toolkit, DFTK for short, is a collection of Julia routines for plane-wave density-functional theory (DFT). The unique feature of this code is its emphasis on composability and flexibility with the goal of facilitating algorithmic and numerical developments as well as interdisciplinary collaboration in solid-state research.
