@@ -14,9 +14,9 @@ berry:
 elph:
     description: Codes to calculate properties related to electron-phonon coupling, such as electronic mobilites and superconducting critical temperatures
     title: Electron-phonon coupling
-dmft:
-    description: Codes to perform simulation within dynamical mean-field theory (DMFT)
-    title: Dynamical mean-field theory
+beyond-dft:
+    description: Codes that go beyond the single-particle picture, e.g. GW or dynamical mean-field theory (DMFT)
+    title: Beyond-DFT with localized orbitals
 io-auto:
     description: Codes and automation platforms for automation, high-throughput computing, I/O generation and parsing.
     title: I/O and automation
