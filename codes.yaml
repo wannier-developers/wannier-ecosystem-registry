@@ -26,7 +26,7 @@ QuantumESPRESSO:
 ABINIT:
     categories:
         - ab-initio_engines
-        - dmft
+        - beyond-dft
     metadata:
         description: |
             ABINIT is a software suite to calculate the optical, mechanical, vibrational, and other observable properties of materials. Starting from the quantum equations of density functional theory, you can build up to advanced applications with perturbation theories based on DFT, and many-body Green's functions (GW and DMFT).
@@ -48,6 +48,7 @@ WIEN2k:
 VASP:
     categories:
         - ab-initio_engines
+        - beyond-dft
     metadata:
         description: |
             The Vienna Ab initio Simulation Package (VASP) is a computer program for atomic scale materials modelling, e.g. electronic structure calculations and quantum-mechanical molecular dynamics, from first principles.
@@ -492,3 +493,163 @@ DFTK:
         documentation_url: https://docs.dftk.org/
         title: DFTK
         logo: https://raw.githubusercontent.com/JuliaMolSim/DFTK.jl/bb8bf8bb861bb9f29e27a7033d7ae65cf3a7344e/docs/logo/DFTK_2000x1000.png
+
+ComDMFT:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            ComDMFT is an ab initio code for simulating correlated quantum materials with crystalline symmetry. It combines the LQSGW code's DFT or qsGW calculations with an impurity problem describing strong on-atom correlations. The impurity problem is set up using Wannier90 and cRPA, and is solved with DMFT and the ComCTQMC impurity solver.
+        sourcecode_url: https://github.com/comscope/ComDMFT
+        homepage_url: https://www.bnl.gov/comscope/software/comscope-software-packages.php
+        documentation_url: https://github.com/comscope/comdmft
+        title: ComDMFT
+        logo: None
+
+w2dynamics:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            A continuous-time hybridization-expansion Monte Carlo code for calculating n-particle Green's functions of the Anderson impurity model and within dynamical mean-field theory.
+        sourcecode_url: https://github.com/w2dynamics/w2dynamics
+        homepage_url: https://github.com/w2dynamics/w2dynamics
+        documentation_url: https://github.com/w2dynamics/w2dynamics
+        title: w2dynamics
+        logo: None
+
+TRIQS:
+    categories:
+        - beyond-dft
+        - tb
+        - transport
+    metadata:
+        description: |
+            TRIQS (Toolbox for Research on Interacting Quantum Systems) is a scientific project providing a set of C++ and Python libraries to develop new tools for the study of interacting quantum systems.
+        sourcecode_url: https://github.com/triqs/triqs
+        homepage_url: https://triqs.github.io/
+        documentation_url: https://triqs.github.io/triqs/latest/documentation.html
+        title: TRIQS
+        logo: https://triqs.github.io/triqs/latest/_images/Triqs_Logo_RGB_Full.png
+
+DCore:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            DMFT software for CORrelated Electrons
+        sourcecode_url: https://github.com/issp-center-dev/DCore
+        homepage_url: https://issp-center-dev.github.io/DCore/master/index.html
+        documentation_url: https://issp-center-dev.github.io/DCore/master/tutorial.html
+        title: DCore
+        logo: None
+
+EDIpack:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            Massively Parallel Lanczos based solver for quantum impurity problems
+        sourcecode_url: https://github.com/aamaricci/EDIpack
+        homepage_url: https://github.com/aamaricci/EDIpack
+        documentation_url: https://github.com/aamaricci/EDIpack
+        title: EDIpack
+        logo: None
+
+DMFTwDFT:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            DMFTwDFT: An open-source code combining Dynamical Mean Field Theory with various Density Functional Theory packages
+        sourcecode_url: https://github.com/DMFTwDFT-project/DMFTwDFT
+        homepage_url: https://dmftwdft-project.github.io/DMFTwDFT/
+        documentation_url: https://dmftwdft-project.github.io/DMFTwDFT/tutorials.html
+        title: DMFTwDFT
+        logo: None
+
+RESPACK:
+    categories:
+        - beyond-dft
+        - wannier_engines
+    metadata:
+        description: |
+            Free software of ab initio many-body perturbation codes including calculations for response function with random-phase approximation, Wannier function, and matrix-element evaluations of frequency-dependent screened direct and exchange interactions.
+        homepage_url: https://sites.google.com/view/kazuma7k6r
+        documentation_url: https://sites.google.com/view/kazuma7k6r
+        title: RESPACK
+        logo: None
+
+wan2respack:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            wan2respack is a connection program package to use the Wannier functions generated by Quantum ESPRESSO and Wannier90 as input to RESPACK.
+        sourcecode_url: https://github.com/respack-dev/wan2respack
+        homepage_url: https://respack-dev.github.io/wan2respack/docs/index.html
+        documentation_url: https://respack-dev.github.io/wan2respack/docs/tutorial/tu-index.html
+        title: wan2respack
+        logo: None
+
+SPEX:
+    categories:
+        - beyond-dft
+        - wannier_engines
+    metadata:
+        description: |
+            Spex is a computer code based on many-body perturbation theory. It uses the all-electron full-potential linearized augmented plane-wave method (FLAPW), which provides an accurate basis set for all kinds of materials including transition metals, oxides, and even f-electron systems.
+        homepage_url: https://spex.readthedocs.io/en/master/index.html
+        documentation_url: https://spex.readthedocs.io/en/master/tutorials.html
+        title: SPEX
+        logo: None
+
+Quanty:
+    categories:
+        - beyond-dft
+        - tb
+    metadata:
+        description: |
+            Quanty is a script language which allows the user to program quantum mechanical problems in second quantization and when possible solve these. It can be used in quantum chemistry as post Hartree-Fock or in one of the LDA++ schemes.
+        homepage_url: https://www.quanty.org/
+        documentation_url: https://www.quanty.org/documentation/start
+        title: Quanty
+        logo: None
+
+woptic:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            Optical conductivity with Wannier functions and adaptive k-mesh refinement
+        sourcecode_url: https://github.com/woptic/woptic
+        homepage_url: https://woptic.github.io/
+        documentation_url: https://woptic.github.io/
+        title: WOPTIC
+        logo: https://woptic.github.io/images/woptic_logo.png
+
+LinReTraCe:
+    categories:
+        - beyond-dft
+        - tb
+        - transport
+    metadata:
+        description: |
+            The Linear Response Transport Centre (LinReTraCe) is a package for the simulation of transport properties driven by carriers with finite lifetimes.
+        sourcecode_url: https://github.com/LinReTraCe/linretrace
+        homepage_url: https://github.com/linretrace
+        documentation_url: https://github.com/LinReTraCe/LinReTraCe/blob/release/documentation/tutorial.pdf
+        title: LinReTraCe
+        logo: https://avatars.githubusercontent.com/u/76209157?v=4
+
+EDRIXS:
+    categories:
+        - beyond-dft
+    metadata:
+        description: |
+            An open source toolkit for simulating RIXS spectra based on exact diagonalization (ED) for strongly correlated materials. It is developed as part of COMSCOPE project in the Center for Computational Material Spectroscopy and Design, Brookhaven National Laboratory.
+        sourcecode_url: https://github.com/NSLS-II/edrixs
+        homepage_url: https://nsls-ii.github.io/edrixs/
+        documentation_url: https://nsls-ii.github.io/edrixs/
+        title: EDRIXS
+        logo: None

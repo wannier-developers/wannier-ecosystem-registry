@@ -37,7 +37,9 @@ def validate_codes_meta(codes_meta, codes_meta_schema):
 
     for code, codedata in codes_meta["codes"].items():
         for category in codedata["categories"]:
-            assert category in codes_meta["categories"]
+            assert (
+                category in codes_meta["categories"]
+            ), f"Category {category} not know for {code}"
 
 
 def generate_codes_meta(data, schema=None):
