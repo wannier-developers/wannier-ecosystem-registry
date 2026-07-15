@@ -653,3 +653,14 @@ EDRIXS:
         documentation_url: https://nsls-ii.github.io/edrixs/
         title: EDRIXS
         logo: None
+
+WannierBSE:
+    categories:
+        - bse
+    metadata:
+        description: |
+            WannierBSE is an open-source MATLAB code for solving the Bethe-Salpeter equation using tight-binding Hamiltonians constructed from maximally localized Wannier functions. It enables the calculation and analysis of excitonic states in 2D TMD materials from Wannier-based electronic-structure data.
+        homepage_url: https://quantum.web.nycu.edu.tw/wannierbse
+        sourcecode_url: https://github.com/WannierBSE/WannierBSE-MATLAB-
+        documentation_url: https://github.com/WannierBSE/WannierBSE-MATLAB-/blob/main/WannierBSE_v1.0_User_Guide.pdf
+        title: WannierBSE
