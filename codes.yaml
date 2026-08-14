@@ -653,3 +653,16 @@ EDRIXS:
         documentation_url: https://nsls-ii.github.io/edrixs/
         title: EDRIXS
         logo: None
+
+pengWann:
+    categories:
+        - tb
+        - io-auto
+    metadata:
+        description: |
+            A lightweight Python package for calculating descriptors of chemical bonding and local electronic structure from Wannier functions.
+        sourcecode_url: https://github.com/PatrickJTaylor/pengWann
+        homepage_url: https://pengwann.readthedocs.io
+        documentation_url: https://pengwann.readthedocs.io
+        title: pengWann
+        logo: https://github.com/PatrickJTaylor/pengWann/raw/main/docs/_static/logo.png
