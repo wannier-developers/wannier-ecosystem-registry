@@ -665,3 +665,16 @@ WannierBSE:
         documentation_url: https://github.com/WannierBSE/WannierBSE-MATLAB-/blob/main/WannierBSE_v1.0_User_Guide.pdf
         title: WannierBSE
         logo: https://raw.githubusercontent.com/WannierBSE/WannierBSE-MATLAB-/main/pics/Logo_WannierBSE_3.png
+
+pengWann:
+    categories:
+        - tb
+        - io-auto
+    metadata:
+        description: |
+            A lightweight Python package for calculating descriptors of chemical bonding and local electronic structure from Wannier functions.
+        sourcecode_url: https://github.com/PatrickJTaylor/pengWann
+        homepage_url: https://pengwann.readthedocs.io
+        documentation_url: https://pengwann.readthedocs.io
+        title: pengWann
+        logo: https://github.com/PatrickJTaylor/pengWann/raw/main/docs/_static/logo.png
