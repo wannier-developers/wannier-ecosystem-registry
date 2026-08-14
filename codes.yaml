@@ -677,4 +677,4 @@ pengWann:
         homepage_url: https://pengwann.readthedocs.io
         documentation_url: https://pengwann.readthedocs.io
         title: pengWann
-        logo: https://github.com/PatrickJTaylor/pengWann/raw/main/docs/_static/logo.png
+        logo: https://raw.githubusercontent.com/PatrickJTaylor/pengWann/refs/tags/v0.5.2/docs/_static/logo.svg
