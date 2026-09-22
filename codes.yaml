@@ -23,6 +23,20 @@ QuantumESPRESSO:
         title: Quantum ESPRESSO
         logo: https://www.quantum-espresso.org/wp-content/uploads/2022/03/quantum_ogo_ok.png
 
+CP2K:
+    categories:
+        - ab-initio_engines
+    metadata:
+        title: CP2K
+        description: |
+            CP2K is an open-source package for atomistic simulations and electronic-structure calculations in molecular and condensed-matter systems. Its Quickstep module combines Gaussian basis sets with auxiliary plane waves through the GPW and GAPW methods.
+
+            CP2K integrates the Wannier90 v4 library for direct, in-process disentanglement and localization. It provides physical AO-based and hybrid initial projections, automated comparison of localization trials, energy-window selection, and export of optimized Wannier Hamiltonians and transformation matrices. Both direct library integration and the traditional file-based interface support workflows using symmetry-reconstructed SCF orbitals.
+        homepage_url: https://www.cp2k.org/
+        sourcecode_url: https://github.com/cp2k/cp2k
+        documentation_url: https://manual.cp2k.org/trunk/methods/electronic_structure/wannier90.html
+        logo: https://raw.githubusercontent.com/cp2k/cp2k/master/docs/_static/cp2k_manual_logo.png
+
 ABINIT:
     categories:
         - ab-initio_engines
